@@ -10565,9 +10565,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY2" gate="G$1" x="160.02" y="109.22" smashed="yes">
 <attribute name="VALUE" x="160.02" y="107.315" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R4" gate="G$1" x="152.4" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="150.9014" y="120.65" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="155.702" y="120.65" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="152.4" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="150.9014" y="123.19" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="155.702" y="123.19" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q2" gate="G$1" x="129.54" y="132.08" smashed="yes">
 <attribute name="NAME" x="132.08" y="132.08" size="1.778" layer="95" font="vector"/>
@@ -10797,7 +10797,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="5V" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="152.4" y1="129.54" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="132.08" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
 <label x="152.4" y="132.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
@@ -11101,13 +11101,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="198.12" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="A" pin="BAS"/>
-<wire x1="162.56" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="116.84" x2="139.7" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="119.38" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
-<junction x="152.4" y="116.84"/>
-<label x="139.7" y="116.84" size="1.778" layer="95"/>
+<wire x1="152.4" y1="119.38" x2="139.7" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="121.92" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
+<label x="139.7" y="119.38" size="1.778" layer="95"/>
+<pinref part="U4" gate="A" pin="COL"/>
+<wire x1="162.56" y1="119.38" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
+<junction x="152.4" y="119.38"/>
 </segment>
 </net>
 <net name="D4" class="0">
