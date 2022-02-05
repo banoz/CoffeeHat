@@ -1,11 +1,12 @@
 # Generic espresso machine control board
 
-WIP
+**WIP**
 
-SubBoard_V1 is an extension board to use MainBoard_V1 with Gaggiuino.
+SubBoard_V1 is an extension board to use on top of MainBoard_V1 for Gaggiuino.
 
-Pin mapping:
+Pin mapping:  
 
+```
 A0 - Pressure transducer
 
 A1 - CLK  \
