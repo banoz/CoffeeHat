@@ -1403,50 +1403,50 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </deviceset>
 </devicesets>
 </library>
-<library name="discrete">
+<library name="discrete" urn="urn:adsk.eagle:library:211">
 <packages>
 <package name="BLACKPILL">
 <description>STM32 BlackPill</description>
-<pad name="P1$1" x="-22.86" y="-7.62" drill="0.6" shape="square"/>
-<pad name="P1$2" x="-20.32" y="-7.62" drill="0.6"/>
-<pad name="P1$3" x="-17.78" y="-7.62" drill="0.6"/>
-<pad name="P1$4" x="-15.24" y="-7.62" drill="0.6"/>
-<pad name="P1$5" x="-12.7" y="-7.62" drill="0.6"/>
-<pad name="P1$6" x="-10.16" y="-7.62" drill="0.6"/>
-<pad name="P1$7" x="-7.62" y="-7.62" drill="0.6"/>
-<pad name="P1$8" x="-5.08" y="-7.62" drill="0.6"/>
-<pad name="P1$9" x="-2.54" y="-7.62" drill="0.6"/>
-<pad name="P1$10" x="0" y="-7.62" drill="0.6"/>
-<pad name="P1$11" x="2.54" y="-7.62" drill="0.6"/>
-<pad name="P1$12" x="5.08" y="-7.62" drill="0.6"/>
-<pad name="P1$13" x="7.62" y="-7.62" drill="0.6"/>
-<pad name="P1$14" x="10.16" y="-7.62" drill="0.6"/>
-<pad name="P1$15" x="12.7" y="-7.62" drill="0.6"/>
-<pad name="P1$16" x="15.24" y="-7.62" drill="0.6"/>
-<pad name="P1$17" x="17.78" y="-7.62" drill="0.6"/>
-<pad name="P1$18" x="20.32" y="-7.62" drill="0.6"/>
-<pad name="P1$19" x="22.86" y="-7.62" drill="0.6"/>
-<pad name="P1$20" x="25.4" y="-7.62" drill="0.6"/>
-<pad name="P2$1" x="-22.86" y="7.62" drill="0.6" shape="square"/>
-<pad name="P2$2" x="-20.32" y="7.62" drill="0.6"/>
-<pad name="P2$3" x="-17.78" y="7.62" drill="0.6"/>
-<pad name="P2$4" x="-15.24" y="7.62" drill="0.6"/>
-<pad name="P2$5" x="-12.7" y="7.62" drill="0.6"/>
-<pad name="P2$6" x="-10.16" y="7.62" drill="0.6"/>
-<pad name="P2$7" x="-7.62" y="7.62" drill="0.6"/>
-<pad name="P2$8" x="-5.08" y="7.62" drill="0.6"/>
-<pad name="P2$9" x="-2.54" y="7.62" drill="0.6"/>
-<pad name="P2$10" x="0" y="7.62" drill="0.6"/>
-<pad name="P2$11" x="2.54" y="7.62" drill="0.6"/>
-<pad name="P2$12" x="5.08" y="7.62" drill="0.6"/>
-<pad name="P2$13" x="7.62" y="7.62" drill="0.6"/>
-<pad name="P2$14" x="10.16" y="7.62" drill="0.6"/>
-<pad name="P2$15" x="12.7" y="7.62" drill="0.6"/>
-<pad name="P2$16" x="15.24" y="7.62" drill="0.6"/>
-<pad name="P2$17" x="17.78" y="7.62" drill="0.6"/>
-<pad name="P2$18" x="20.32" y="7.62" drill="0.6"/>
-<pad name="P2$19" x="22.86" y="7.62" drill="0.6"/>
-<pad name="P2$20" x="25.4" y="7.62" drill="0.6"/>
+<pad name="P1$1" x="-22.86" y="-7.62" drill="1.016" shape="square" rot="R90"/>
+<pad name="P1$2" x="-20.32" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$3" x="-17.78" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$4" x="-15.24" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$5" x="-12.7" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$6" x="-10.16" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$7" x="-7.62" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$8" x="-5.08" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$9" x="-2.54" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$10" x="0" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$11" x="2.54" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$12" x="5.08" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$13" x="7.62" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$14" x="10.16" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$15" x="12.7" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$16" x="15.24" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$17" x="17.78" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$18" x="20.32" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$19" x="22.86" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P1$20" x="25.4" y="-7.62" drill="1.016" rot="R90"/>
+<pad name="P2$1" x="-22.86" y="7.62" drill="1.016" shape="square" rot="R90"/>
+<pad name="P2$2" x="-20.32" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$3" x="-17.78" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$4" x="-15.24" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$5" x="-12.7" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$6" x="-10.16" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$7" x="-7.62" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$8" x="-5.08" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$9" x="-2.54" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$10" x="0" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$11" x="2.54" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$12" x="5.08" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$13" x="7.62" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$14" x="10.16" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$15" x="12.7" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$16" x="15.24" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$17" x="17.78" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$18" x="20.32" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$19" x="22.86" y="7.62" drill="1.016" rot="R90"/>
+<pad name="P2$20" x="25.4" y="7.62" drill="1.016" rot="R90"/>
 <wire x1="-25.4" y1="-11.43" x2="27.94" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="27.94" y1="-11.43" x2="27.94" y2="11.43" width="0.127" layer="21"/>
 <wire x1="27.94" y1="11.43" x2="-25.4" y2="11.43" width="0.127" layer="21"/>
@@ -22426,102 +22426,406 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="PTH"/>
-<part name="U1" library="discrete" deviceset="BLACKPILL" device=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector"/>
-<part name="X1" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1"/>
-<part name="F1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="FUSE2P" device="" package3d_urn="urn:adsk.eagle:package:26671/1" value="30A"/>
-<part name="TR1" library="discrete" deviceset="Z0107MN" device="SOT-223"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="PTH">
+<attribute name="LCSC" value="C144395"/>
+</part>
+<part name="U1" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="BLACKPILL" device=""/>
+<part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector">
+<attribute name="LCSC" value="C160390"/>
+</part>
+<part name="J3" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="Vertical Qwiic Connector">
+<attribute name="LCSC" value="C160390"/>
+</part>
+<part name="X1" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="F1" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="FUSE2P" device="" package3d_urn="urn:adsk.eagle:package:26671/1" value="30A">
+<attribute name="LCSC" value="C3130"/>
+</part>
+<part name="TR1" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="Z0107MN" device="SOT-223">
+<attribute name="LCSC" value="C145130"/>
+</part>
 <part name="SUPPLY2" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY3" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="J4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1"/>
-<part name="J5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1"/>
-<part name="U2" library="SparkFun-IC-Conversion" deviceset="MAX31855K" device="" value="MAX31855K"/>
-<part name="U3" library="SparkFun-IC-Conversion" deviceset="MAX31855K" device="" value="MAX31855K"/>
-<part name="K1" library="SparkFun-Electromechanical" deviceset="RELAY-SPDT" device="-JZC-11F"/>
-<part name="K2" library="SparkFun-Electromechanical" deviceset="RELAY-SPDT" device="-JZC-11F"/>
-<part name="K3" library="SparkFun-Electromechanical" deviceset="RELAY-SPDT" device="-JZC-11F"/>
+<part name="J4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1">
+<attribute name="LCSC" value="C474892"/>
+</part>
+<part name="J5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="1X2" device="-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1">
+<attribute name="LCSC" value="C474892"/>
+</part>
+<part name="U2" library="SparkFun-IC-Conversion" deviceset="MAX31855K" device="" value="MAX31855K">
+<attribute name="LCSC" value="C52028"/>
+</part>
+<part name="U3" library="SparkFun-IC-Conversion" deviceset="MAX31855K" device="" value="MAX31855K">
+<attribute name="LCSC" value="C52028"/>
+</part>
+<part name="K1" library="SparkFun-Electromechanical" deviceset="RELAY-SPDT" device="-JZC-11F">
+<attribute name="LCSC" value="C74541"/>
+</part>
+<part name="K2" library="SparkFun-Electromechanical" deviceset="RELAY-SPDT" device="-JZC-11F">
+<attribute name="LCSC" value="C74541"/>
+</part>
+<part name="K3" library="SparkFun-Electromechanical" deviceset="RELAY-SPDT" device="-JZC-11F">
+<attribute name="LCSC" value="C74541"/>
+</part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="X2" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1"/>
-<part name="X3" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1"/>
-<part name="X4" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1"/>
-<part name="X5" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1"/>
-<part name="X6" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1"/>
-<part name="X7" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1"/>
+<part name="X2" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="X3" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="X4" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="X5" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="X6" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="X7" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
+<attribute name="LCSC" value="C305817"/>
+</part>
 <part name="PS1" library="PSK-3D-5" deviceset="PSK-3D-5" device=""/>
 <part name="SUPPLY1" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="LTV816" device="" package3d_urn="urn:adsk.eagle:package:21938/1"/>
-<part name="U4" library="discrete" deviceset="MOC3021M" device="DIL06O"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K"/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
-<part name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
+<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="LTV816" device="" package3d_urn="urn:adsk.eagle:package:21938/1">
+<attribute name="LCSC" value="C115456"/>
+</part>
+<part name="U4" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="MOC3021M" device="DIL06O">
+<attribute name="LCSC" value="C123202"/>
+</part>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="220K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C2828895"/>
+</part>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3">
+<attribute name="LCSC" value="C155378"/>
+</part>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="470">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C95529"/>
+</part>
+<part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
+<part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
+<part name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
 <part name="SUPPLY4" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY5" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY6" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
-<part name="Q5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
-<part name="Q6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470"/>
+<part name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
+<part name="Q5" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
+<part name="Q6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328441"/>
+</part>
 <part name="SUPPLY7" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3">
+<attribute name="LCSC" value="C155378"/>
+</part>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3">
+<attribute name="LCSC" value="C155378"/>
+</part>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="S1M" device="" package3d_urn="urn:adsk.eagle:package:43460/3">
+<attribute name="LCSC" value="C155378"/>
+</part>
+<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3">
+<attribute name="LCSC" value="C72042"/>
+</part>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3">
+<attribute name="LCSC" value="C72042"/>
+</part>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3">
+<attribute name="LCSC" value="C72042"/>
+</part>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C351654"/>
+</part>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C351654"/>
+</part>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C351654"/>
+</part>
 <part name="SUPPLY8" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT"/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT"/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT"/>
-<part name="J9" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT"/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="DT" package3d_urn="urn:adsk.eagle:package:30369/1" technology="33TR"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT">
+<attribute name="LCSC" value="C131334"/>
+</part>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT">
+<attribute name="LCSC" value="C131334"/>
+</part>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT">
+<attribute name="LCSC" value="C131334"/>
+</part>
+<part name="J9" library="SparkFun-Connectors" deviceset="CONN_04" device="JST-PTH-VERT">
+<attribute name="LCSC" value="C131334"/>
+</part>
+<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="DT" package3d_urn="urn:adsk.eagle:package:30369/1" technology="33TR">
+<attribute name="LCSC" value="C165080"/>
+</part>
 <part name="SUPPLY9" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10uF/16V"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10uF/16V"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10uF/16V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C19576"/>
+</part>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10uF/16V">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="+" pinorder="1"/>
+<pinmap gate="G$1" pin="-" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C19576"/>
+</part>
 <part name="SUPPLY10" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω"/>
-<part name="FB2" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω"/>
-<part name="FB3" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω"/>
-<part name="FB4" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF"/>
-<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330"/>
+<part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω">
+<attribute name="LCSC" value="C710387"/>
+</part>
+<part name="FB2" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω">
+<attribute name="LCSC" value="C710387"/>
+</part>
+<part name="FB3" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω">
+<attribute name="LCSC" value="C710387"/>
+</part>
+<part name="FB4" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603-470Ω-100MHZ-1A-200MILIΩ" value="470Ω">
+<attribute name="LCSC" value="C710387"/>
+</part>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C2830723"/>
+</part>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C2830723"/>
+</part>
+<part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3">
+<attribute name="LCSC" value="C72042"/>
+</part>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="330">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C351654"/>
+</part>
 <part name="SUPPLY11" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="MARK2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 <part name="MARK4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 <part name="MARK3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 <part name="MARK1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
-<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="220"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10nF"/>
-<part name="Q7" library="microbuilder" deviceset="MOSFET-N_DUAL" device=""/>
-<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="SPK1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMT-0540-S-R" device="" package3d_urn="urn:adsk.eagle:package:6240810/1"/>
+<part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="220">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C38808"/>
+</part>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C76989"/>
+</part>
+<part name="Q7" library="microbuilder" deviceset="MOSFET-N_DUAL" device="" value="2N7002D">
+<attribute name="LCSC" value="C383161"/>
+</part>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="SPK1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMT-0540-S-R" device="" package3d_urn="urn:adsk.eagle:package:6240810/1">
+<attribute name="LCSC" value="C391029"/>
+</part>
 <part name="SJ1" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
 <part name="SJ2" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
-<part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
-<part name="Q9" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V"/>
+<part name="Q8" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
+<part name="Q9" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:38446/1" value="600mA/40V">
+<attribute name="LCSC" value="C82460"/>
+</part>
 <part name="SUPPLY12" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
+<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
+<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C328335"/>
+</part>
 <part name="MARK5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 <part name="MARK6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1"/>
 </parts>
@@ -22533,6 +22837,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J1" gate="J1" x="17.78" y="121.92" smashed="yes">
 <attribute name="VALUE" x="12.7" y="114.554" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="12.7" y="130.048" size="1.778" layer="95" font="vector"/>
+<attribute name="LCSC" x="17.78" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U1" gate="G$1" x="203.2" y="144.78" smashed="yes">
 <attribute name="NAME" x="193.04" y="173.482" size="1.27" layer="94"/>
@@ -22541,10 +22846,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J2" gate="G$1" x="17.78" y="144.78" smashed="yes">
 <attribute name="VALUE" x="12.7" y="139.446" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="12.7" y="152.654" size="1.778" layer="95" font="vector"/>
+<attribute name="LCSC" x="17.78" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="17.78" y="165.1" smashed="yes">
 <attribute name="VALUE" x="12.7" y="159.766" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="12.7" y="172.974" size="1.778" layer="95" font="vector"/>
+<attribute name="LCSC" x="17.78" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="G$1" x="27.94" y="137.16" smashed="yes">
 <attribute name="VALUE" x="27.94" y="135.255" size="1.778" layer="96" align="center"/>
@@ -22552,15 +22859,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY3" gate="G$1" x="27.94" y="157.48" smashed="yes">
 <attribute name="VALUE" x="27.94" y="155.575" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="J4" gate="G$1" x="17.78" y="48.26" smashed="yes" rot="R180"/>
-<instance part="J5" gate="G$1" x="17.78" y="20.32" smashed="yes" rot="R180"/>
+<instance part="J4" gate="G$1" x="17.78" y="48.26" smashed="yes" rot="R180">
+<attribute name="LCSC" x="17.78" y="48.26" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="J5" gate="G$1" x="17.78" y="20.32" smashed="yes" rot="R180">
+<attribute name="LCSC" x="17.78" y="20.32" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="U2" gate="G$1" x="68.58" y="53.34" smashed="yes">
 <attribute name="NAME" x="60.96" y="63.5" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.96" y="40.64" size="1.778" layer="96"/>
+<attribute name="LCSC" x="68.58" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="68.58" y="25.4" smashed="yes">
 <attribute name="NAME" x="60.96" y="35.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="60.96" y="12.7" size="1.778" layer="96"/>
+<attribute name="LCSC" x="68.58" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0" smashed="yes">
@@ -22571,48 +22884,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J6" gate="J1" x="114.3" y="165.1" smashed="yes">
 <attribute name="VALUE" x="109.22" y="157.734" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="109.22" y="173.228" size="1.778" layer="95" font="vector"/>
+<attribute name="LCSC" x="114.3" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J7" gate="J1" x="114.3" y="144.78" smashed="yes">
 <attribute name="VALUE" x="109.22" y="137.414" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="109.22" y="152.908" size="1.778" layer="95" font="vector"/>
+<attribute name="LCSC" x="114.3" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J8" gate="J1" x="114.3" y="124.46" smashed="yes">
 <attribute name="VALUE" x="109.22" y="117.094" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="109.22" y="132.588" size="1.778" layer="95" font="vector"/>
+<attribute name="LCSC" x="114.3" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J9" gate="J1" x="114.3" y="104.14" smashed="yes">
 <attribute name="VALUE" x="109.22" y="96.774" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="109.22" y="112.268" size="1.778" layer="95" font="vector"/>
+<attribute name="LCSC" x="114.3" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FB1" gate="G$1" x="30.48" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.94" y="45.466" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.56" y="43.688" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="LCSC" x="30.48" y="45.72" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="FB2" gate="G$1" x="30.48" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.94" y="51.308" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.56" y="49.53" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="LCSC" x="30.48" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="FB3" gate="G$1" x="30.48" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.94" y="17.526" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.814" y="15.748" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="LCSC" x="30.48" y="17.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="FB4" gate="G$1" x="30.48" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.94" y="23.114" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="35.814" y="21.336" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<attribute name="LCSC" x="30.48" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="43.18" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.545" y="44.196" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="47.371" y="44.196" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="43.18" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="43.18" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.545" y="16.256" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="47.371" y="16.256" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="43.18" y="15.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="MARK2" gate="G$1" x="243.84" y="40.64" smashed="yes"/>
 <instance part="MARK1" gate="G$1" x="238.76" y="40.64" smashed="yes"/>
 <instance part="Q7" gate="G$1" x="198.12" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="198.755" y="63.5" size="1.27" layer="95" rot="R270"/>
 <attribute name="VALUE" x="196.85" y="63.5" size="1.27" layer="96" rot="R270"/>
+<attribute name="LCSC" x="198.12" y="68.58" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="Q7" gate="G$2" x="190.5" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="191.135" y="53.34" size="1.27" layer="95" rot="R270"/>
@@ -22621,18 +22945,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R16" gate="G$1" x="208.28" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="206.7814" y="72.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="211.582" y="72.39" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="208.28" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="215.9" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="214.4014" y="72.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="219.202" y="72.39" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="215.9" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="170.18" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="168.6814" y="72.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="173.482" y="72.39" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="170.18" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="177.8" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="176.3014" y="72.39" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="181.102" y="72.39" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="177.8" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SJ1" gate="1" x="198.12" y="48.26" smashed="yes">
 <attribute name="NAME" x="195.58" y="50.8" size="1.778" layer="95"/>
@@ -22645,14 +22973,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="OK1" gate="G$1" x="48.26" y="86.36" smashed="yes">
 <attribute name="NAME" x="41.275" y="92.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.275" y="78.74" size="1.778" layer="96"/>
+<attribute name="LCSC" x="48.26" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="30.48" y="88.9" smashed="yes">
 <attribute name="NAME" x="26.67" y="90.3986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="26.67" y="85.598" size="1.778" layer="96"/>
+<attribute name="LCSC" x="30.48" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="30.48" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.94" y="83.3374" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="27.94" y="86.1314" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="30.48" y="83.82" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="58.42" y="78.74" smashed="yes">
 <attribute name="VALUE" x="58.42" y="76.835" size="1.778" layer="96" align="center"/>
@@ -22660,6 +22991,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R13" gate="G$1" x="58.42" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.9214" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="61.722" y="92.71" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="58.42" y="96.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="MARK5" gate="G$1" x="233.68" y="40.64" smashed="yes"/>
 </instances>
@@ -23281,6 +23613,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X1" gate="-1" x="12.7" y="22.86" smashed="yes">
 <attribute name="NAME" x="12.7" y="26.289" size="1.778" layer="95"/>
 <attribute name="VALUE" x="12.7" y="20.447" size="1.778" layer="96"/>
+<attribute name="LCSC" x="12.7" y="22.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="X1" gate="-2" x="12.7" y="15.24" smashed="yes">
 <attribute name="NAME" x="12.7" y="18.669" size="1.778" layer="95"/>
@@ -23289,22 +23622,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="F1" gate="G$1" x="30.48" y="25.4" smashed="yes">
 <attribute name="NAME" x="29.21" y="27.305" size="1.778" layer="95"/>
 <attribute name="VALUE" x="27.94" y="21.9202" size="1.778" layer="96"/>
+<attribute name="LCSC" x="30.48" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TR1" gate="G$1" x="198.12" y="165.1" smashed="yes">
 <attribute name="NAME" x="201.93" y="167.64" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.93" y="165.1" size="1.778" layer="96"/>
+<attribute name="LCSC" x="198.12" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K1" gate="K$1" x="170.18" y="58.42" smashed="yes">
 <attribute name="NAME" x="162.56" y="66.294" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="162.56" y="48.768" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="170.18" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K2" gate="K$1" x="170.18" y="93.98" smashed="yes">
 <attribute name="NAME" x="162.56" y="101.854" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="162.56" y="84.328" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="170.18" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="K3" gate="K$1" x="170.18" y="129.54" smashed="yes">
 <attribute name="NAME" x="162.56" y="137.414" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="162.56" y="119.888" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="170.18" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="147.32" y="0" smashed="yes">
@@ -23319,6 +23657,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X2" gate="-2" x="238.76" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="60.071" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="238.76" y="65.913" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="238.76" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="X3" gate="-1" x="238.76" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="88.011" size="1.778" layer="95" rot="R180"/>
@@ -23327,6 +23666,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X3" gate="-2" x="238.76" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="95.631" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="238.76" y="101.473" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="238.76" y="99.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="X4" gate="-1" x="238.76" y="127" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="123.571" size="1.778" layer="95" rot="R180"/>
@@ -23335,6 +23675,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X4" gate="-2" x="238.76" y="134.62" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="131.191" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="238.76" y="137.033" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="238.76" y="134.62" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="X5" gate="-1" x="238.76" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="159.131" size="1.778" layer="95" rot="R180"/>
@@ -23343,6 +23684,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X5" gate="-2" x="238.76" y="170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="238.76" y="166.751" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="238.76" y="172.593" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="238.76" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="X6" gate="-1" x="213.36" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="213.36" y="93.091" size="1.778" layer="95" rot="R180"/>
@@ -23351,6 +23693,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X6" gate="-2" x="213.36" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="213.36" y="100.711" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="213.36" y="106.553" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="213.36" y="104.14" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="X7" gate="-1" x="213.36" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="213.36" y="128.651" size="1.778" layer="95" rot="R180"/>
@@ -23359,6 +23702,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="X7" gate="-2" x="213.36" y="139.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="213.36" y="136.271" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="213.36" y="142.113" size="1.778" layer="96" rot="R180"/>
+<attribute name="LCSC" x="213.36" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="PS1" gate="G$1" x="40.64" y="45.72" smashed="yes">
 <attribute name="NAME" x="30.48" y="51.308" size="1.778" layer="95"/>
@@ -23370,22 +23714,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U4" gate="G$1" x="167.64" y="162.56" smashed="yes">
 <attribute name="NAME" x="160.6296" y="168.2496" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.6296" y="155.0162" size="1.778" layer="96"/>
+<attribute name="LCSC" x="167.64" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="185.42" y="165.1" smashed="yes">
 <attribute name="NAME" x="181.61" y="166.5986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="181.61" y="161.798" size="1.778" layer="96"/>
+<attribute name="LCSC" x="185.42" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q1" gate="G$1" x="132.08" y="45.72" smashed="yes">
 <attribute name="NAME" x="134.62" y="45.72" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="134.62" y="43.434" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="132.08" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q2" gate="G$1" x="132.08" y="81.28" smashed="yes">
 <attribute name="NAME" x="134.62" y="81.28" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="134.62" y="78.994" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="132.08" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q3" gate="G$1" x="132.08" y="116.84" smashed="yes">
 <attribute name="NAME" x="134.62" y="116.84" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="134.62" y="114.554" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="132.08" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="134.62" y="35.56" smashed="yes">
 <attribute name="VALUE" x="134.62" y="33.655" size="1.778" layer="96" align="center"/>
@@ -23399,42 +23748,52 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="Q4" gate="G$1" x="124.46" y="53.34" smashed="yes">
 <attribute name="NAME" x="127" y="53.34" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="127" y="51.054" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="124.46" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q5" gate="G$1" x="124.46" y="88.9" smashed="yes">
 <attribute name="NAME" x="127" y="88.9" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="127" y="86.614" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="124.46" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q6" gate="G$1" x="124.46" y="124.46" smashed="yes">
 <attribute name="NAME" x="127" y="124.46" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="127" y="122.174" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="124.46" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="127" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="130.302" y="62.23" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="127" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="127" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="97.79" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="130.302" y="97.79" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="127" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="127" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.5014" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="130.302" y="133.35" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="127" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="114.3" y="53.34" smashed="yes">
 <attribute name="NAME" x="110.49" y="54.8386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="110.49" y="50.038" size="1.778" layer="96"/>
+<attribute name="LCSC" x="114.3" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="114.3" y="88.9" smashed="yes">
 <attribute name="NAME" x="110.49" y="90.3986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="110.49" y="85.598" size="1.778" layer="96"/>
+<attribute name="LCSC" x="114.3" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="114.3" y="124.46" smashed="yes">
 <attribute name="NAME" x="110.49" y="125.9586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="110.49" y="121.158" size="1.778" layer="96"/>
+<attribute name="LCSC" x="114.3" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="149.86" y="160.02" smashed="yes">
 <attribute name="NAME" x="146.05" y="161.5186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="146.05" y="156.718" size="1.778" layer="96"/>
+<attribute name="LCSC" x="149.86" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="142.24" y="154.94" smashed="yes">
 <attribute name="VALUE" x="142.24" y="153.035" size="1.778" layer="96" align="center"/>
@@ -23442,42 +23801,52 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D2" gate="G$1" x="152.4" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.9174" y="60.96" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="154.7114" y="60.96" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="152.4" y="58.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D3" gate="G$1" x="152.4" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.9174" y="96.52" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="154.7114" y="96.52" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="152.4" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="D4" gate="G$1" x="152.4" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.9174" y="132.08" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="154.7114" y="132.08" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="152.4" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="LED1" gate="G$1" x="152.4" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.844" y="50.292" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="146.685" y="50.292" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC" x="152.4" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="LED2" gate="G$1" x="152.4" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.844" y="85.852" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="146.685" y="85.852" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC" x="152.4" y="81.28" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="LED3" gate="G$1" x="152.4" y="116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.844" y="121.412" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="146.685" y="121.412" size="1.778" layer="96" rot="R270"/>
+<attribute name="LCSC" x="152.4" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="160.02" y="76.2" smashed="yes">
 <attribute name="NAME" x="156.21" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="72.898" size="1.778" layer="96"/>
+<attribute name="LCSC" x="160.02" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="160.02" y="40.64" smashed="yes">
 <attribute name="NAME" x="156.21" y="42.1386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="37.338" size="1.778" layer="96"/>
+<attribute name="LCSC" x="160.02" y="40.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="160.02" y="111.76" smashed="yes">
 <attribute name="NAME" x="156.21" y="113.2586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="108.458" size="1.778" layer="96"/>
+<attribute name="LCSC" x="160.02" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="IC1" gate="G$1" x="33.02" y="73.66" smashed="yes">
 <attribute name="NAME" x="35.56" y="66.04" size="1.778" layer="95"/>
 <attribute name="VALUE" x="35.56" y="63.5" size="1.778" layer="96"/>
+<attribute name="LCSC" x="33.02" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="33.02" y="60.96" smashed="yes">
 <attribute name="VALUE" x="33.02" y="59.055" size="1.778" layer="96" align="center"/>
@@ -23485,10 +23854,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="C1" gate="G$1" x="15.24" y="172.72" smashed="yes">
 <attribute name="NAME" x="16.256" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.256" y="168.529" size="1.778" layer="96"/>
+<attribute name="LCSC" x="15.24" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="27.94" y="172.72" smashed="yes">
 <attribute name="NAME" x="28.956" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.956" y="168.529" size="1.778" layer="96"/>
+<attribute name="LCSC" x="27.94" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="15.24" y="160.02" smashed="yes">
 <attribute name="VALUE" x="15.24" y="158.115" size="1.778" layer="96" align="center"/>
@@ -23496,10 +23867,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LED4" gate="G$1" x="45.72" y="172.72" smashed="yes">
 <attribute name="NAME" x="49.276" y="168.148" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="51.435" y="168.148" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="45.72" y="172.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="45.72" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="44.2214" y="156.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="49.022" y="156.21" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="45.72" y="160.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="45.72" y="149.86" smashed="yes">
 <attribute name="VALUE" x="45.72" y="147.955" size="1.778" layer="96" align="center"/>
@@ -23509,22 +23882,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R15" gate="G$1" x="210.82" y="152.4" smashed="yes">
 <attribute name="NAME" x="207.01" y="153.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.01" y="149.098" size="1.778" layer="96"/>
+<attribute name="LCSC" x="210.82" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="220.98" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.345" y="153.416" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="225.171" y="153.416" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="220.98" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SPK1" gate="G$1" x="55.88" y="114.3" smashed="yes">
 <attribute name="NAME" x="52.07" y="120.65" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.07" y="111.125" size="1.778" layer="96"/>
+<attribute name="LCSC" x="55.88" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q8" gate="G$1" x="45.72" y="106.68" smashed="yes">
 <attribute name="NAME" x="48.26" y="106.68" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="48.26" y="104.394" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="45.72" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q9" gate="G$1" x="38.1" y="114.3" smashed="yes">
 <attribute name="NAME" x="40.64" y="114.3" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="40.64" y="112.014" size="1.778" layer="96" font="vector"/>
+<attribute name="LCSC" x="38.1" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="48.26" y="96.52" smashed="yes">
 <attribute name="VALUE" x="48.26" y="94.615" size="1.778" layer="96" align="center"/>
@@ -23532,10 +23910,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R20" gate="G$1" x="27.94" y="114.3" smashed="yes">
 <attribute name="NAME" x="24.13" y="115.7986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="110.998" size="1.778" layer="96"/>
+<attribute name="LCSC" x="27.94" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="40.64" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.1414" y="123.19" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.942" y="123.19" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="40.64" y="127" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="MARK6" gate="G$1" x="233.68" y="40.64" smashed="yes"/>
 </instances>
