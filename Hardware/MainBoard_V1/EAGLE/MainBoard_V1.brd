@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -191,6 +191,26 @@ N</text>
 <wire x1="0" y1="3" x2="3" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="91" y1="54" x2="94" y2="51" width="0" layer="20" curve="-90"/>
 <wire x1="94" y1="3" x2="91" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="86.36" y1="52.07" x2="64.77" y2="52.07" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="64.77" y1="52.07" x2="62.23" y2="49.53" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="62.23" y1="49.53" x2="62.23" y2="43.18" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="62.23" y1="43.18" x2="58.42" y2="39.37" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="58.42" y1="39.37" x2="53.34" y2="39.37" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="53.34" y1="39.37" x2="50.8" y2="41.91" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="50.8" y1="41.91" x2="50.8" y2="43.18" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="50.8" y1="43.18" x2="49.53" y2="44.45" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="49.53" y1="44.45" x2="46.99" y2="44.45" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="46.99" y1="44.45" x2="45.72" y2="43.18" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="29.21" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="45.72" y1="29.21" x2="58.42" y2="16.51" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="58.42" y1="16.51" x2="58.42" y2="8.89" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="58.42" y1="8.89" x2="64.77" y2="2.54" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="64.77" y1="2.54" x2="86.36" y2="2.54" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="86.36" y1="2.54" x2="92.71" y2="8.89" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="92.71" y1="8.89" x2="92.71" y2="45.72" width="0.3048" layer="22" style="shortdash"/>
+<wire x1="92.71" y1="45.72" x2="86.36" y2="52.07" width="0.3048" layer="22" style="shortdash"/>
+<text x="61.214" y="5.969" size="1.6764" layer="22" rot="MR0" align="bottom-right">DANGER! 
+HIGH VOLTAGE!</text>
 </plain>
 <libraries>
 <library name="SparkFun-Electromechanical">
@@ -306,6 +326,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="AC2" x="-14.7" y="-2.5" drill="1"/>
 <pad name="V-" x="14.7" y="7.7" drill="1"/>
 <pad name="V+" x="14.7" y="-7.7" drill="1" shape="square"/>
+</package>
+<package name="HV_LOGO_3">
+<description>HV logo</description>
+<polygon width="0.127" layer="21">
+<vertex x="8.03" y="10.03"/>
+<vertex x="9.3" y="10.03"/>
+<vertex x="8.27" y="6.1"/>
+<vertex x="10.53" y="7.1"/>
+<vertex x="9.53" y="2.93"/>
+<vertex x="10.37" y="3.13"/>
+<vertex x="9.17" y="1.27"/>
+<vertex x="8.1" y="3.17"/>
+<vertex x="8.87" y="3"/>
+<vertex x="9.17" y="5.83"/>
+<vertex x="7.13" y="4.73"/>
+</polygon>
+<polygon width="0.127" layer="21" locked="yes">
+<vertex x="8.26" y="14.3"/>
+<vertex x="0.58" y="1" curve="120"/>
+<vertex x="1.15" y="0"/>
+<vertex x="1.43" y="0.83"/>
+<vertex x="8.83" y="13.67"/>
+<vertex x="16.23" y="0.83"/>
+<vertex x="1.44" y="0.83"/>
+<vertex x="1.16" y="0"/>
+<vertex x="16.51" y="0" curve="120"/>
+<vertex x="17.09" y="1"/>
+<vertex x="9.41" y="14.3" curve="120"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -2652,6 +2701,7 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="0" x="71.2" y="24.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="66.882" y="20.89" size="1.27" layer="27" ratio="10"/>
 </element>
+<element name="U$9" library="discrete" package="HV_LOGO_3" value="" x="80.01" y="10.668" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -3269,6 +3319,10 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.5" severity="warning">
+Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
+The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
