@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -191,7 +191,7 @@ GND</text>
 <text x="12.954" y="3.429" size="1.27" layer="25" align="bottom-center">S
 -
 +</text>
-<text x="27.94" y="44.323" size="1.27" layer="26" rot="MR0">+  T  R  G</text>
+<text x="27.94" y="47.223" size="1.27" layer="26" rot="MR0">+  T  R  G</text>
 <text x="8.636" y="43.815" size="1.778" layer="26" rot="MR0">T-
 T+</text>
 <wire x1="0" y1="48" x2="0" y2="2" width="0" layer="20"/>
@@ -1956,10 +1956,12 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="J2" library="SparkFun-Connectors" package="1X15" value="" x="2.54" y="39.37" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C2897378" x="2.54" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="3.937" y="40.64" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="0.508" y="40.64" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="1X15" value="" x="24.13" y="3.81" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C2897378" x="24.13" y="3.81" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="22.733" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="26.162" y="2.54" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
@@ -1968,83 +1970,112 @@ design rules under a new name.</description>
 <element name="U$3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="15" y="48" smashed="yes" rot="MR0"/>
 <element name="U$4" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:6240632/1" value="FIDUCIAL" x="15" y="2" smashed="yes" rot="MR0"/>
 <element name="J1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="1X2-3.5MM" package3d_urn="urn:adsk.eagle:package:6240635/1" value="1X2-3.5MM" x="4" y="46" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C474892" x="4" y="46" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="0.745" y="41.349" size="0.6096" layer="25"/>
 </element>
 <element name="FB1" library="SparkFun-Coils" package="0603" value="470Ω" x="8.5" y="44" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C883591" x="8.5" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="8.373" y="41.841" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-12579" x="8.5" y="44" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FB2" library="SparkFun-Coils" package="0603" value="470Ω" x="8.5" y="47.5" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C883591" x="8.5" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="8.5" y="49.151" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-12579" x="8.5" y="47.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uF" x="10.5" y="44.95" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C83170" x="10.5" y="44.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="9.992" y="46.855" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="63" x="10.5" y="44.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="10.5" y="44.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.96" y="46.22" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U1" library="SparkFun-IC-Conversion" package="SO08" value="MAX31855K" x="15" y="45" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C52028" x="15" y="45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.413" y="47.921" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-12578" x="15" y="45" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="15" y="49.19" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="20" y="6" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C157929" x="20" y="6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.65" y="9.175" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="WIRE-10037" x="20" y="6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT-09915" x="20" y="6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.46" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J5" library="SparkFun-Connectors" package="JST-2-PTH" value="" x="20" y="14" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C173752" x="20" y="14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.714" y="11.079" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="CONN-09863" x="20" y="14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SKU" value="PRT-09914" x="20" y="14" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="16" y="12.73" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="J6" library="SparkFun-Connectors" package="JST-5-PTH" value="" x="20" y="24" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C157923" x="20" y="24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.777" y="17.904" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="SF_ID" value="PRT-09917" x="20" y="24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.587" y="22.349" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J7" library="SparkFun-Connectors" package="MOLEX-1X4" value="" x="28" y="43" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.126" y="46.429" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="PROD_ID" value="CONN-08186" x="28" y="43" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SF_ID" value="PRT-08231" x="28" y="43" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="25.714" y="46.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="J7" library="SparkFun-Connectors" package="MOLEX-1X4" value="" x="28" y="46" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C163037" x="28" y="46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="20.126" y="49.429" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="PROD_ID" value="CONN-08186" x="28" y="46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SF_ID" value="PRT-08231" x="28" y="46" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="25.714" y="49.429" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NO_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="" x="21.5" y="39.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="21.5" y="40.643" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="VALUE" x="21.5" y="38.357" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="J8" library="SparkFun-Connectors" package="JST-3-PTH" value="" x="20" y="35" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C157929" x="20" y="35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="13.65" y="30.809" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="PROD_ID" value="WIRE-10037" x="20" y="35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SF_ID" value="PRT-09915" x="20" y="35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="17.46" y="33.349" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF" x="11.5" y="41" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C89827" x="11.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.992" y="42.524" size="0.6096" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="63" x="11.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="11.5" y="41" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="12.77" y="43.54" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-523" package3d_urn="urn:adsk.eagle:package:6240751/1" value="" x="4.58" y="19.85" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C232841" x="4.58" y="19.85" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.402" y="17.626" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="3.564" y="21.374" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="SOD-523" package3d_urn="urn:adsk.eagle:package:6240751/1" value="" x="4.58" y="22.96" smashed="yes" rot="R180">
+<attribute name="LCSC" value="C232841" x="4.58" y="22.96" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="5.491" y="25.325" size="0.6096" layer="25" rot="R180"/>
 <attribute name="VALUE" x="3.564" y="24.484" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="5.9" y="21.1" smashed="yes" rot="R90">
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10K" x="5.9" y="21.1" smashed="yes" rot="R90">
+<attribute name="LCSC" value="C60490" x="5.9" y="21.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.706" y="19.365" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="34" x="5.9" y="21.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="5.9" y="21.1" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k" x="5.9" y="23.5" smashed="yes" rot="R270">
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10K" x="5.9" y="23.5" smashed="yes" rot="R270">
+<attribute name="LCSC" value="C60490" x="5.9" y="23.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="5.773" y="24.746" size="0.6096" layer="25"/>
 <attribute name="POPULARITY" value="34" x="5.9" y="23.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="5.9" y="23.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10K" x="26.5" y="26.7" smashed="yes">
+<attribute name="LCSC" value="C60490" x="26.5" y="26.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.865" y="27.335" size="0.6096" layer="25"/>
+<attribute name="POPULARITY" value="34" x="26.5" y="26.7" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="26.5" y="26.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="25.865" y="26.065" size="0.6096" layer="27"/>
+</element>
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10K" x="26.5" y="29.2" smashed="yes">
+<attribute name="LCSC" value="C60490" x="26.5" y="29.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.865" y="29.835" size="0.6096" layer="25"/>
+<attribute name="POPULARITY" value="34" x="26.5" y="29.2" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="26.5" y="29.2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="25.865" y="28.565" size="0.6096" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -2144,9 +2175,9 @@ design rules under a new name.</description>
 <via x="8" y="40.5" extent="1-16" drill="0.35"/>
 <wire x1="18" y1="40.5" x2="8" y2="40.5" width="0.254" layer="16"/>
 <via x="18" y="40.5" extent="1-16" drill="0.35"/>
-<wire x1="18" y1="40.5" x2="22.96573125" y2="40.5" width="0.254" layer="1"/>
-<wire x1="25.46" y1="43" x2="25.46" y2="42.99426875" width="0.254" layer="1"/>
-<wire x1="25.46" y1="42.99426875" x2="22.96573125" y2="40.5" width="0.254" layer="1"/>
+<wire x1="18" y1="40.5" x2="20.42573125" y2="40.5" width="0.254" layer="1"/>
+<wire x1="25.46" y1="46" x2="25.46" y2="45.53426875" width="0.254" layer="1"/>
+<wire x1="25.46" y1="45.53426875" x2="20.42573125" y2="40.5" width="0.254" layer="1"/>
 </signal>
 <signal name="D1">
 <contactref element="J2" pad="1"/>
@@ -2157,8 +2188,9 @@ design rules under a new name.</description>
 <via x="7" y="41.5" extent="1-16" drill="0.35"/>
 <wire x1="19" y1="41.5" x2="7" y2="41.5" width="0.254" layer="16"/>
 <via x="19" y="41.5" extent="1-16" drill="0.35"/>
-<wire x1="22.92" y1="43" x2="21.42" y2="41.5" width="0.254" layer="1"/>
-<wire x1="19" y1="41.5" x2="21.42" y2="41.5" width="0.254" layer="1"/>
+<wire x1="22.92" y1="46" x2="22.92" y2="44.349" width="0.254" layer="1"/>
+<wire x1="22.92" y1="44.349" x2="20.071" y2="41.5" width="0.254" layer="1"/>
+<wire x1="19" y1="41.5" x2="20.071" y2="41.5" width="0.254" layer="1"/>
 </signal>
 <signal name="VIN">
 <contactref element="J3" pad="15"/>
@@ -2185,11 +2217,17 @@ design rules under a new name.</description>
 <wire x1="17.907" y1="30.56734375" x2="17.907" y2="37.338" width="0.8128" layer="16"/>
 <wire x1="21.0936" y1="39.5" x2="20.069" y2="39.5" width="0.6096" layer="16"/>
 <wire x1="20.069" y1="39.5" x2="17.907" y2="37.338" width="0.8128" layer="16"/>
-<wire x1="28" y1="43" x2="28" y2="42.224" width="0.8128" layer="16"/>
+<wire x1="28" y1="46" x2="28" y2="42.224" width="0.8128" layer="16"/>
 <wire x1="28" y1="42.224" x2="26.924" y2="41.148" width="0.8128" layer="16"/>
 <wire x1="26.924" y1="41.148" x2="20.701" y2="41.148" width="0.8128" layer="16"/>
 <wire x1="20.701" y1="41.148" x2="20.069" y2="40.516" width="0.8128" layer="16"/>
 <wire x1="20.069" y1="40.516" x2="20.069" y2="39.5" width="0.8128" layer="16"/>
+<contactref element="R3" pad="2"/>
+<contactref element="R4" pad="2"/>
+<wire x1="27" y1="26.7" x2="27" y2="29.2" width="0.254" layer="1"/>
+<wire x1="27" y1="29.2" x2="27" y2="30.658" width="0.254" layer="1"/>
+<wire x1="27" y1="30.658" x2="25.908" y2="31.75" width="0.254" layer="1"/>
+<wire x1="25.908" y1="31.75" x2="24.13" y2="31.75" width="0.254" layer="1"/>
 </signal>
 <signal name="A7">
 <contactref element="J3" pad="11"/>
@@ -2198,6 +2236,9 @@ design rules under a new name.</description>
 <wire x1="22.159" y1="35.73" x2="20.889" y2="37" width="0.254" layer="1"/>
 <wire x1="22.159" y1="35.73" x2="22.159" y2="31.181" width="0.254" layer="1"/>
 <wire x1="24.13" y1="29.21" x2="22.159" y2="31.181" width="0.254" layer="1"/>
+<contactref element="R4" pad="1"/>
+<wire x1="26" y1="29.2" x2="24.14" y2="29.2" width="0.254" layer="1"/>
+<wire x1="24.14" y1="29.2" x2="24.13" y2="29.21" width="0.254" layer="1"/>
 </signal>
 <signal name="A6">
 <contactref element="J3" pad="10"/>
@@ -2206,6 +2247,9 @@ design rules under a new name.</description>
 <wire x1="21.651" y1="34.238" x2="20.889" y2="35" width="0.254" layer="1"/>
 <wire x1="21.651" y1="34.238" x2="21.651" y2="29.149" width="0.254" layer="1"/>
 <wire x1="24.13" y1="26.67" x2="21.651" y2="29.149" width="0.254" layer="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="26" y1="26.7" x2="24.16" y2="26.7" width="0.254" layer="1"/>
+<wire x1="24.16" y1="26.7" x2="24.13" y2="26.67" width="0.254" layer="1"/>
 </signal>
 <signal name="A5">
 <contactref element="J3" pad="9"/>
