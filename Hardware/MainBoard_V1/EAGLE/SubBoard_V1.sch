@@ -13837,6 +13837,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="231.14" y1="172.72" x2="241.3" y2="172.72" width="0.1524" layer="91"/>
 <label x="236.22" y="172.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<label x="27.94" y="76.2" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D10" class="0">
 <segment>
@@ -13857,11 +13862,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="J2" gate="G$1" pin="11"/>
 <wire x1="231.14" y1="165.1" x2="241.3" y2="165.1" width="0.1524" layer="91"/>
 <label x="238.76" y="165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
-<label x="27.94" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">

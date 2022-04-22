@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -181,8 +181,8 @@
 <wire x1="33" y1="50" x2="2" y2="50" width="0" layer="20"/>
 <text x="26.714" y="1.534" size="1.778" layer="26" rot="MR90">Gaggiuino</text>
 <text x="8" y="32" size="1.27" layer="25" align="bottom-right">G
-B
-S</text>
+S
+B</text>
 <text x="8" y="19.5" size="1.27" layer="25" align="bottom-right">D1
 CLK
 GND
@@ -2191,6 +2191,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="D11">
 <contactref element="J2" pad="14"/>
+<contactref element="J5" pad="2"/>
+<wire x1="2.54" y1="6.35" x2="4.714" y2="8.524" width="0.254" layer="1"/>
+<wire x1="4.714" y1="11.214" x2="7" y2="13.5" width="0.254" layer="1"/>
+<wire x1="4.714" y1="11.214" x2="4.714" y2="8.524" width="0.254" layer="1"/>
 </signal>
 <signal name="D10">
 <contactref element="J2" pad="13"/>
@@ -2200,9 +2204,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="D8">
 <contactref element="J2" pad="11"/>
-<contactref element="J5" pad="2"/>
-<wire x1="7" y1="13.5" x2="6.53" y2="13.97" width="0.254" layer="1"/>
-<wire x1="6.53" y1="13.97" x2="2.54" y2="13.97" width="0.254" layer="1"/>
 </signal>
 <signal name="D7">
 <contactref element="J2" pad="10"/>

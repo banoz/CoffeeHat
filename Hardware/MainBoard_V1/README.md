@@ -28,6 +28,6 @@ D4 - DO   \
 D5 - CS    -- MAX31855
 D6 - CLK  /
 
-D8 - Boiler heater SSR control
 D9 - 3-way valve control
 D10 - Pump TRIAC control
+D11 - Boiler heater SSR control
