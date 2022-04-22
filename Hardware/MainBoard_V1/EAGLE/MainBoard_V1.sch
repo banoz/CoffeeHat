@@ -654,174 +654,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="con-rib" urn="urn:adsk.eagle:library:183">
-<description>&lt;b&gt;Ribbon Cable Connectors&lt;/b&gt; Flachstecker / Faston&lt;p&gt;
-Width 2,8 mm, 4,8 mm, 6,3 mm&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SH5-2" urn="urn:adsk.eagle:footprint:9974/1" library_version="1">
-<description>&lt;b&gt;RIBBON CABLE CONNECTOR&lt;/b&gt;&lt;p&gt;
-Flachstecker / Faston</description>
-<wire x1="0.3302" y1="-1.5748" x2="-0.3302" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="-1.5748" x2="-0.3302" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="-3.4798" x2="0.3302" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-3.4798" x2="0.3302" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-3.175" x2="0.3302" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-1.905" x2="0.3302" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="-1.5748" x2="-0.3302" y2="-0.9398" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-0.9398" x2="0.3302" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="-3.4798" x2="-0.3302" y2="-4.1148" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="-4.1148" x2="0.3302" y2="-4.1148" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-4.1148" x2="0.3302" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="0.635" y1="-3.4798" x2="0.635" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="-0.635" y1="-1.5748" x2="0.635" y2="-1.5748" width="0.254" layer="51" curve="-251.507775"/>
-<wire x1="-0.635" y1="-3.4798" x2="0.635" y2="-3.4798" width="0.254" layer="51" curve="254.469668"/>
-<wire x1="0.635" y1="-1.905" x2="0.3302" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="0.635" y1="-1.905" x2="0.635" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="-0.9652" y1="-2.2098" x2="-0.635" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-1.905" x2="0.635" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-1.905" x2="-0.635" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-1.905" x2="0.635" y2="-2.2098" width="0.254" layer="51"/>
-<wire x1="0.635" y1="-2.2098" x2="0.635" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="0.635" y1="-3.175" x2="0.3302" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="0.635" y1="-3.175" x2="0.635" y2="-2.8448" width="0.254" layer="51"/>
-<wire x1="-0.9652" y1="-2.8448" x2="-0.635" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-3.175" x2="0.635" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-3.175" x2="-0.635" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-3.175" x2="0.635" y2="-2.8448" width="0.254" layer="51"/>
-<wire x1="0.635" y1="-2.8448" x2="0.635" y2="-2.2098" width="0.254" layer="51"/>
-<wire x1="-0.9652" y1="-2.8448" x2="-0.9652" y2="-2.2098" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="3.5052" x2="-0.3302" y2="3.5052" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="3.5052" x2="-0.3302" y2="1.6002" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="1.6002" x2="0.3302" y2="1.6002" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="1.6002" x2="0.3302" y2="3.5052" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="3.5052" x2="-0.3302" y2="4.1402" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="4.1402" x2="0.3302" y2="4.1402" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="4.1402" x2="0.3302" y2="3.5052" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="1.6002" x2="-0.3302" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="0.9652" x2="0.3302" y2="1.6002" width="0.254" layer="51"/>
-<wire x1="-2.4638" y1="4.953" x2="7.4422" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="7.4422" y1="-4.953" x2="7.4422" y2="4.953" width="0.1524" layer="21"/>
-<wire x1="7.4422" y1="-4.953" x2="-2.4638" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="-2.4638" y1="4.953" x2="-2.4638" y2="-4.953" width="0.1524" layer="21"/>
-<wire x1="5.334" y1="-1.5748" x2="4.6736" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="-1.5748" x2="4.6736" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="-3.4798" x2="5.334" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-3.4798" x2="5.334" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-3.175" x2="5.334" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-1.905" x2="5.334" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="-1.5748" x2="4.6736" y2="-0.9398" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-0.9398" x2="5.334" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="-3.4798" x2="4.6736" y2="-4.1148" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="-4.1148" x2="5.334" y2="-4.1148" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-4.1148" x2="5.334" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="5.6388" y1="-3.4798" x2="5.6388" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="4.3688" y1="-1.5748" x2="5.6388" y2="-1.5748" width="0.254" layer="51" curve="-251.507775"/>
-<wire x1="4.3688" y1="-3.4798" x2="5.6388" y2="-3.4798" width="0.254" layer="51" curve="254.469668"/>
-<wire x1="5.6388" y1="-1.905" x2="5.334" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="5.6388" y1="-1.905" x2="5.6388" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="4.0386" y1="-2.2098" x2="4.3688" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-1.905" x2="5.6388" y2="-1.5748" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-1.905" x2="4.3688" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-1.905" x2="5.6388" y2="-2.2098" width="0.254" layer="51"/>
-<wire x1="5.6388" y1="-2.2098" x2="5.6388" y2="-1.905" width="0.254" layer="51"/>
-<wire x1="5.6388" y1="-3.175" x2="5.334" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="5.6388" y1="-3.175" x2="5.6388" y2="-2.8448" width="0.254" layer="51"/>
-<wire x1="4.0386" y1="-2.8448" x2="4.3688" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-3.175" x2="5.6388" y2="-3.4798" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-3.175" x2="4.3688" y2="-3.175" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-3.175" x2="5.6388" y2="-2.8448" width="0.254" layer="51"/>
-<wire x1="5.6388" y1="-2.8448" x2="5.6388" y2="-2.2098" width="0.254" layer="51"/>
-<wire x1="4.0386" y1="-2.8448" x2="4.0386" y2="-2.2098" width="0.254" layer="51"/>
-<wire x1="5.334" y1="3.5052" x2="4.6736" y2="3.5052" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="3.5052" x2="4.6736" y2="1.6002" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="1.6002" x2="5.334" y2="1.6002" width="0.254" layer="51"/>
-<wire x1="5.334" y1="1.6002" x2="5.334" y2="3.5052" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="3.5052" x2="4.6736" y2="4.1402" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="4.1402" x2="5.334" y2="4.1402" width="0.254" layer="51"/>
-<wire x1="5.334" y1="4.1402" x2="5.334" y2="3.5052" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="1.6002" x2="4.6736" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="5.334" y1="0.9652" x2="5.334" y2="1.6002" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-0.4318" x2="0.3302" y2="0.4318" width="0.254" layer="21"/>
-<wire x1="-0.3302" y1="-0.4318" x2="-0.3302" y2="0.4318" width="0.254" layer="21"/>
-<wire x1="-0.3302" y1="-0.9398" x2="0.3302" y2="-0.9398" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="0.9652" x2="0.3302" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="-0.4318" x2="4.6736" y2="0.4318" width="0.254" layer="21"/>
-<wire x1="4.6736" y1="-0.9398" x2="5.334" y2="-0.9398" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="0.9652" x2="5.334" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-0.4318" x2="5.334" y2="0.4318" width="0.254" layer="21"/>
-<wire x1="4.6736" y1="0.4318" x2="4.6736" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="5.334" y1="0.4318" x2="5.334" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="5.334" y1="-0.9398" x2="5.334" y2="-0.4318" width="0.254" layer="51"/>
-<wire x1="4.6736" y1="-0.9398" x2="4.6736" y2="-0.4318" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="0.4318" x2="0.3302" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="0.4318" x2="-0.3302" y2="0.9652" width="0.254" layer="51"/>
-<wire x1="0.3302" y1="-0.9398" x2="0.3302" y2="-0.4318" width="0.254" layer="51"/>
-<wire x1="-0.3302" y1="-0.9398" x2="-0.3302" y2="-0.4318" width="0.254" layer="51"/>
-<pad name="1" x="0" y="-2.5146" drill="1.3208" shape="long" rot="R90"/>
-<pad name="2" x="0" y="2.5146" drill="1.3208" shape="long" rot="R90"/>
-<pad name="3" x="5.0038" y="-2.5146" drill="1.3208" shape="long" rot="R90"/>
-<pad name="4" x="5.0038" y="2.5146" drill="1.3208" shape="long" rot="R90"/>
-<text x="-2.54" y="5.334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-3.81" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SH5-2" urn="urn:adsk.eagle:package:9989/1" type="box" library_version="1">
-<description>RIBBON CABLE CONNECTOR
-Flachstecker / Faston</description>
-<packageinstances>
-<packageinstance name="SH5-2"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MD" urn="urn:adsk.eagle:symbol:9971/1" library_version="1">
-<wire x1="0" y1="0" x2="1.27" y2="0" width="0.6096" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<circle x="2.54" y="0" radius="0.127" width="0.3048" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.127" width="0.3048" layer="94"/>
-<text x="0" y="3.429" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-2.413" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="5.08" y="2.54" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SH5-2" urn="urn:adsk.eagle:component:10000/1" prefix="X" uservalue="yes" library_version="1">
-<description>&lt;b&gt;RIBBON CABLE CONNECTOR&lt;/b&gt;&lt;p&gt;
-Flachstecker / Faston</description>
-<gates>
-<gate name="-1" symbol="MD" x="0" y="0" addlevel="always"/>
-<gate name="-2" symbol="MD" x="0" y="-7.62" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="SH5-2">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-1" pin="2" pad="2"/>
-<connect gate="-2" pin="1" pad="3"/>
-<connect gate="-2" pin="2" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9989/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Boards">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 This library contains footprints for SparkFun breakout boards, microcontrollers (Arduino, Particle, Teensy, etc.),  breadboards, non-RF modules, etc.
@@ -22660,6 +22492,274 @@ Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-faston" urn="urn:adsk.eagle:library:144">
+<description>&lt;b&gt;FASTON Connector&lt;/b&gt; Printed Circuit Board Tabs&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="F061.040" urn="urn:adsk.eagle:footprint:6745/1" library_version="1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt;&lt;p&gt;
+Flachstecker Typ 00.15 (F061.040)&lt;br&gt;
+Distributor: Bürklin</description>
+<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.8" layer="51"/>
+<pad name="A1" x="-2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<pad name="A2" x="2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.060" urn="urn:adsk.eagle:footprint:6746/1" library_version="1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
+Flachstecker Typ 00.45.1 (F061.060)&lt;br&gt;
+Distributor: Bürklin 05 F 266</description>
+<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.8" layer="51"/>
+<pad name="A1" x="-2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<pad name="A2" x="2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.080" urn="urn:adsk.eagle:footprint:6747/1" library_version="1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
+Flachstecker Typ Vogt 3866G.68 (F061.080)&lt;br&gt;
+Distributor: Bürklin 05 F 268</description>
+<wire x1="-3.6" y1="0" x2="3.6" y2="0" width="0.8" layer="51"/>
+<pad name="1A" x="-2.5" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<pad name="1B" x="2.5" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.100" urn="urn:adsk.eagle:footprint:6748/1" library_version="1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
+Flachstecker Typ Vogt 3866B.68 (F061.100)&lt;br&gt;
+Distributor: Bürklin 05 F 270</description>
+<wire x1="-3.6" y1="0" x2="3.6" y2="0" width="0.8" layer="51"/>
+<pad name="A1" x="-2.5" y="0" drill="1.4" diameter="2.54" shape="long"/>
+<pad name="A2" x="2.5" y="0" drill="1.4" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.200" urn="urn:adsk.eagle:footprint:6749/1" library_version="1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46244&lt;p&gt;
+Flachstecker Typ 17128.. (F061.200)&lt;br&gt;
+Distributor: Bürklin 05 F 280</description>
+<wire x1="-3.6" y1="0" x2="4.55" y2="0" width="0.8" layer="51"/>
+<wire x1="4.55" y1="0" x2="11.6" y2="0" width="0.8" layer="21"/>
+<pad name="1A" x="-2.5" y="0" drill="1.3" diameter="2.5" shape="long"/>
+<pad name="1B" x="2.5" y="0" drill="1.3" diameter="2.5" shape="long"/>
+<text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="5.08" y="1.27" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.220" urn="urn:adsk.eagle:footprint:6750/1" library_version="1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46244&lt;p&gt;
+Flachstecker Typ 00.32 (F061.220)&lt;br&gt;
+Distributor: Bürklin 05 F 282</description>
+<wire x1="-3.6" y1="0" x2="17.1" y2="0" width="0.8" layer="51"/>
+<wire x1="5.35" y1="0" x2="17.1" y2="0" width="0.8" layer="21"/>
+<pad name="1A" x="-2.5" y="0" drill="1.2" diameter="2.5" shape="long"/>
+<pad name="1B" x="2.5" y="0" drill="1.2" diameter="2.5" shape="long"/>
+<text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="5.08" y="1.27" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="62409-1" urn="urn:adsk.eagle:footprint:6751/1" library_version="1">
+<description>&lt;b&gt;TAB, FASTON, PC Board, 6,35 (.250) Series&lt;/b&gt;&lt;p&gt;
+Distributor: Digikey - Nb.  A24742-ND&lt;br&gt;
+Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
+<pad name="A1" x="-2.65" y="0" drill="1.5" diameter="1.9" shape="long"/>
+<pad name="A2" x="2.65" y="0" drill="1.5" diameter="1.9" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.75" y1="-0.4" x2="3.75" y2="0.4" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="F061.040" urn="urn:adsk.eagle:package:6756/1" type="box" library_version="1">
+<description>FASTON 6.3 mm x 0.8 mm
+Flachstecker Typ 00.15 (F061.040)
+Distributor: Bürklin</description>
+<packageinstances>
+<packageinstance name="F061.040"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.060" urn="urn:adsk.eagle:package:6755/1" type="box" library_version="1">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
+Flachstecker Typ 00.45.1 (F061.060)
+Distributor: Bürklin 05 F 266</description>
+<packageinstances>
+<packageinstance name="F061.060"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.080" urn="urn:adsk.eagle:package:6757/1" type="box" library_version="1">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
+Flachstecker Typ Vogt 3866G.68 (F061.080)
+Distributor: Bürklin 05 F 268</description>
+<packageinstances>
+<packageinstance name="F061.080"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.100" urn="urn:adsk.eagle:package:6758/1" type="box" library_version="1">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
+Flachstecker Typ Vogt 3866B.68 (F061.100)
+Distributor: Bürklin 05 F 270</description>
+<packageinstances>
+<packageinstance name="F061.100"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.200" urn="urn:adsk.eagle:package:6759/1" type="box" library_version="1">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46244
+Flachstecker Typ 17128.. (F061.200)
+Distributor: Bürklin 05 F 280</description>
+<packageinstances>
+<packageinstance name="F061.200"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.220" urn="urn:adsk.eagle:package:6763/1" type="box" library_version="1">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46244
+Flachstecker Typ 00.32 (F061.220)
+Distributor: Bürklin 05 F 282</description>
+<packageinstances>
+<packageinstance name="F061.220"/>
+</packageinstances>
+</package3d>
+<package3d name="62409-1" urn="urn:adsk.eagle:package:6760/1" type="box" library_version="1">
+<description>TAB, FASTON, PC Board, 6,35 (.250) Series
+Distributor: Digikey - Nb.  A24742-ND
+Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
+<packageinstances>
+<packageinstance name="62409-1"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PIN" urn="urn:adsk.eagle:symbol:6744/1" library_version="1">
+<text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-0.508" x2="2.54" y2="0.508" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PIN2" urn="urn:adsk.eagle:component:6765/1" prefix="J" library_version="1">
+<description>&lt;b&gt;Flachstecker Typ Tyco/Electronics/AMP&lt;/b&gt; TAB, FASTON&lt;p&gt;
+Printed Circuit Board Tabs&lt;br&gt;
+Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description>
+<gates>
+<gate name="-1" symbol="PIN" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="F061.040" package="F061.040">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6756/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.060" package="F061.060">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6755/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.080" package="F061.080">
+<connects>
+<connect gate="-1" pin="1" pad="1A 1B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6757/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.100" package="F061.100">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6758/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.200" package="F061.200">
+<connects>
+<connect gate="-1" pin="1" pad="1A 1B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6759/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.220" package="F061.220">
+<connects>
+<connect gate="-1" pin="1" pad="1A 1B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6763/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="62409-1" package="62409-1">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6760/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22675,12 +22775,6 @@ Wickmann</description>
 </part>
 <part name="U1" library="discrete" deviceset="MOC3021M" device="">
 <attribute name="LCSC" value="C123202"/>
-</part>
-<part name="X2" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1" value="AC">
-<attribute name="LCSC" value="C305817"/>
-</part>
-<part name="X1" library="con-rib" library_urn="urn:adsk.eagle:library:183" deviceset="SH5-2" device="" package3d_urn="urn:adsk.eagle:package:9989/1">
-<attribute name="LCSC" value="C305817"/>
 </part>
 <part name="J1" library="SparkFun-Boards" deviceset="NANO_FOOTPRINT" device="NANO"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="470">
@@ -22831,6 +22925,18 @@ Wickmann</description>
 </spice>
 <attribute name="LCSC" value="C98220"/>
 </part>
+<part name="J5" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" value="">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="J6" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" value="">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="J7" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" value="">
+<attribute name="LCSC" value="C305817"/>
+</part>
+<part name="J8" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" value="">
+<attribute name="LCSC" value="C305817"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -22846,24 +22952,6 @@ Wickmann</description>
 <attribute name="NAME" x="165.7096" y="173.3296" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.7096" y="160.0962" size="1.778" layer="96"/>
 <attribute name="LCSC" x="172.72" y="167.64" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="X2" gate="-1" x="231.14" y="116.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="231.14" y="113.411" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="231.14" y="119.253" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="X2" gate="-2" x="231.14" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="231.14" y="123.571" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="231.14" y="129.413" size="1.778" layer="96" rot="R180"/>
-<attribute name="LCSC" x="231.14" y="127" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
-<instance part="X1" gate="-1" x="231.14" y="170.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="231.14" y="166.751" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="231.14" y="172.593" size="1.778" layer="96" rot="R180"/>
-<attribute name="LCSC" x="231.14" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
-</instance>
-<instance part="X1" gate="-2" x="231.14" y="152.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="231.14" y="148.971" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="231.14" y="154.813" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J1" gate="G$1" x="35.56" y="154.94" smashed="yes">
 <attribute name="NAME" x="25.4" y="178.308" size="1.778" layer="95" font="vector"/>
@@ -23044,6 +23132,26 @@ Wickmann</description>
 <attribute name="VALUE" x="38.862" y="102.87" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="35.56" y="106.68" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="J5" gate="-1" x="231.14" y="116.84" smashed="yes">
+<attribute name="NAME" x="228.6" y="118.11" size="1.778" layer="95"/>
+<attribute name="VALUE" x="228.6" y="114.3" size="1.778" layer="96"/>
+<attribute name="LCSC" x="231.14" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J6" gate="-1" x="231.14" y="124.46" smashed="yes">
+<attribute name="NAME" x="228.6" y="125.73" size="1.778" layer="95"/>
+<attribute name="VALUE" x="228.6" y="121.92" size="1.778" layer="96"/>
+<attribute name="LCSC" x="231.14" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J7" gate="-1" x="231.14" y="170.18" smashed="yes">
+<attribute name="NAME" x="228.6" y="171.45" size="1.778" layer="95"/>
+<attribute name="VALUE" x="228.6" y="167.64" size="1.778" layer="96"/>
+<attribute name="LCSC" x="231.14" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="J8" gate="-1" x="231.14" y="149.86" smashed="yes">
+<attribute name="NAME" x="228.6" y="151.13" size="1.778" layer="95"/>
+<attribute name="VALUE" x="228.6" y="147.32" size="1.778" layer="96"/>
+<attribute name="LCSC" x="231.14" y="149.86" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23067,28 +23175,22 @@ Wickmann</description>
 <wire x1="182.88" y1="170.18" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="A2"/>
 <pinref part="TR1" gate="G$1" pin="A2"/>
-<pinref part="X1" gate="-1" pin="1"/>
-<pinref part="X1" gate="-1" pin="2"/>
-<wire x1="226.06" y1="170.18" x2="226.06" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="170.18" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
 <junction x="203.2" y="170.18"/>
-<junction x="226.06" y="170.18"/>
 <label x="218.44" y="170.18" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="170.18" x2="226.06" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="167.894" x2="218.44" y2="170.18" width="0.1524" layer="91"/>
 <junction x="218.44" y="170.18"/>
+<pinref part="J7" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="ACN" class="0">
 <segment>
-<pinref part="X2" gate="-1" pin="2"/>
-<pinref part="X2" gate="-1" pin="1"/>
-<wire x1="226.06" y1="116.84" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
 <label x="215.9" y="116.84" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="193.04" y1="116.84" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
-<junction x="226.06" y="116.84"/>
+<pinref part="J5" gate="-1" pin="1"/>
 </segment>
 <segment>
 <pinref part="PSU1" gate="G$1" pin="AC_N"/>
@@ -23103,15 +23205,12 @@ Wickmann</description>
 </net>
 <net name="3WAYVALVE" class="0">
 <segment>
-<pinref part="X1" gate="-2" pin="2"/>
-<pinref part="X1" gate="-2" pin="1"/>
-<wire x1="226.06" y1="149.86" x2="226.06" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="K1" gate="K$1" pin="NO"/>
 <wire x1="180.34" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="149.86" x2="215.9" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="149.86" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
-<junction x="226.06" y="149.86"/>
-<label x="210.82" y="149.86" size="1.778" layer="95"/>
+<label x="213.36" y="149.86" size="1.778" layer="95"/>
+<pinref part="J8" gate="-1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -23703,7 +23802,6 @@ Wickmann</description>
 </net>
 <net name="ACL" class="0">
 <segment>
-<pinref part="X2" gate="-2" pin="1"/>
 <wire x1="203.2" y1="162.56" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="157.48" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="144.78" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
@@ -23713,15 +23811,13 @@ Wickmann</description>
 <junction x="203.2" y="144.78"/>
 <pinref part="TR1" gate="G$1" pin="A1"/>
 <label x="215.9" y="124.46" size="1.778" layer="95"/>
-<pinref part="X2" gate="-2" pin="2"/>
-<wire x1="226.06" y1="127" x2="226.06" y2="124.46" width="0.1524" layer="91"/>
-<junction x="226.06" y="124.46"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="157.48" x2="203.2" y2="157.48" width="0.1524" layer="91"/>
 <junction x="203.2" y="157.48"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="124.46" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
 <junction x="203.2" y="124.46"/>
+<pinref part="J6" gate="-1" pin="1"/>
 </segment>
 <segment>
 <pinref part="PSU1" gate="G$1" pin="AC_L"/>
