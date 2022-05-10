@@ -21,6 +21,7 @@ Buzzer on PB5
 Pump control on PB8
 Heater 1 relay on PC14
 Heater 2 relay on PC13
+3-Way valve control on PC15
 
 SPI1 on PA4/5/7/PB4 pins is used by FLASH on board or MicroSD card
 
