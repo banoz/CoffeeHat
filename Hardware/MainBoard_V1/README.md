@@ -31,3 +31,10 @@ D6 - CLK  /
 D9 - 3-way valve control
 D10 - Pump TRIAC control
 D11 - Boiler heater SSR control
+```
+
+![SubBoard_V1_sch](https://github.com/banoz/CoffeeHat/blob/main/Hardware/MainBoard_V1/EAGLE/Exports/SubBoard_V1_sch.png)
+![SubBoard_V1_top](https://github.com/banoz/CoffeeHat/blob/main/Hardware/MainBoard_V1/EAGLE/Exports/SubBoard_V1_top.png)
+
+![MainBoard_V1_sch](https://github.com/banoz/CoffeeHat/blob/main/Hardware/MainBoard_V1/EAGLE/Exports/MainBoard_V1_sch.png)
+![MainBoard_V1_top](https://github.com/banoz/CoffeeHat/blob/main/Hardware/MainBoard_V1/EAGLE/Exports/MainBoard_V1_top.png)
