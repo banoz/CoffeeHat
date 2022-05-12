@@ -28,4 +28,7 @@ SPI1 on PA4/5/7/PB4 pins is used by FLASH on board or MicroSD card
 SPI2 is used for thermocouples on PB12(SPI2_NSS)/PB13(SPI2_SCK)/PB14(SPI2_MISO), and CS for second chip will be PB9(SPI2_NSS)
 
 Two I2C ports on PB6(I2C1_SCL)/PB7(I2C1_SDA) and PB10(I2C2_SCL)/PB3(I2C2_SDA)
-
+```
+![GaggiaBoard_V1_s1](https://github.com/banoz/CoffeeHat/blob/main/Hardware/GaggiaBoard_V1/EAGLE/Exports/GaggiaBoard_V1_s1.png)
+![GaggiaBoard_V1_s2](https://github.com/banoz/CoffeeHat/blob/main/Hardware/GaggiaBoard_V1/EAGLE/Exports/GaggiaBoard_V1_s2.png)
+![GaggiaBoard_V1_top](https://github.com/banoz/CoffeeHat/blob/main/Hardware/GaggiaBoard_V1/EAGLE/Exports/GaggiaBoard_V1_top.png)
