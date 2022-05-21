@@ -21963,10 +21963,10 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <attribute name="VALUE" x="43.815" y="60.96" size="1.778" layer="96"/>
 <attribute name="LCSC" x="50.8" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="22.86" y="60.96" smashed="yes">
-<attribute name="NAME" x="19.05" y="62.4586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.05" y="57.658" size="1.778" layer="96"/>
-<attribute name="LCSC" x="22.86" y="60.96" size="1.778" layer="96" display="off"/>
+<instance part="R1" gate="G$1" x="25.4" y="55.88" smashed="yes">
+<attribute name="NAME" x="21.59" y="57.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.59" y="52.578" size="1.778" layer="96"/>
+<attribute name="LCSC" x="25.4" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="60.96" y="60.96" smashed="yes">
 <attribute name="VALUE" x="60.96" y="59.055" size="1.778" layer="96" align="center"/>
@@ -21976,10 +21976,10 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <attribute name="VALUE" x="64.262" y="74.93" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="60.96" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="B1" gate="G$1" x="30.48" y="71.12" smashed="yes">
-<attribute name="VALUE" x="35.56" y="66.04" size="1.778" layer="96"/>
-<attribute name="NAME" x="35.56" y="73.66" size="1.778" layer="95"/>
-<attribute name="LCSC" x="30.48" y="71.12" size="1.778" layer="96" display="off"/>
+<instance part="B1" gate="G$1" x="33.02" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="27.94" y="71.12" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="27.94" y="63.5" size="1.778" layer="95" rot="R180"/>
+<attribute name="LCSC" x="33.02" y="66.04" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="68.58" y="71.12" smashed="yes">
 <attribute name="NAME" x="64.77" y="72.6186" size="1.778" layer="95"/>
@@ -22054,10 +22054,10 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <wire x1="198.12" y1="165.1" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="AC1"/>
-<wire x1="30.48" y1="76.2" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
-<label x="7.62" y="78.74" size="1.778" layer="95"/>
+<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<pinref part="B1" gate="G$1" pin="AC2"/>
+<wire x1="33.02" y1="76.2" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="71.12" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PSU2" gate="G$1" pin="AC_N"/>
@@ -22128,8 +22128,8 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<label x="7.62" y="60.96" size="1.778" layer="95"/>
+<wire x1="20.32" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<label x="10.16" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PSU2" gate="G$1" pin="AC_L"/>
@@ -22686,16 +22686,16 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <segment>
 <pinref part="OK1" gate="G$1" pin="A"/>
 <pinref part="B1" gate="G$1" pin="+"/>
-<wire x1="40.64" y1="71.12" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="73.66" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="66.04" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="-"/>
-<wire x1="25.4" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="71.12" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="63.5" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="63.5" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="OK1" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
 </segment>
@@ -22714,9 +22714,9 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <net name="N$37" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="B1" gate="G$1" pin="AC2"/>
-<wire x1="27.94" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="60.96" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="60.96" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="B1" gate="G$1" pin="AC1"/>
+<wire x1="30.48" y1="55.88" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
