@@ -20964,7 +20964,7 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="5V_1"/>
 <wire x1="218.44" y1="167.64" x2="231.14" y2="167.64" width="0.1524" layer="91"/>
-<label x="228.6" y="167.64" size="1.778" layer="95"/>
+<label x="226.06" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
@@ -21138,7 +21138,7 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB10"/>
 <wire x1="218.44" y1="160.02" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
-<label x="223.52" y="160.02" size="1.778" layer="95"/>
+<label x="226.06" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
@@ -21250,9 +21250,9 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <label x="226.06" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<label x="58.42" y="132.08" size="1.778" layer="95"/>
-<pinref part="J8" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="J7" gate="J$1" pin="2"/>
+<wire x1="53.34" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
+<label x="58.42" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA0" class="0">
@@ -21262,18 +21262,6 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <label x="226.06" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PA3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA3"/>
-<wire x1="218.44" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
-<label x="226.06" y="139.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J8" gate="G$1" pin="5"/>
-<wire x1="53.34" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
-<label x="58.42" y="139.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PA2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PA2"/>
@@ -21281,9 +21269,9 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <label x="226.06" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
-<label x="58.42" y="129.54" size="1.778" layer="95"/>
+<pinref part="J7" gate="J$1" pin="3"/>
+<wire x1="53.34" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
+<label x="58.42" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB8" class="0">
@@ -21321,9 +21309,9 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <label x="226.06" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="J$1" pin="2"/>
-<wire x1="53.34" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
-<label x="58.42" y="154.94" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
+<label x="58.42" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB1" class="0">
@@ -21333,9 +21321,9 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <label x="226.06" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="J$1" pin="3"/>
-<wire x1="53.34" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
-<label x="58.42" y="157.48" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<label x="58.42" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -21650,6 +21638,18 @@ Source: http://www.fairchildsemi.com/ds/MB/MB6S.pdf</description>
 <pinref part="J27" gate="J1" pin="3"/>
 <wire x1="15.24" y1="114.3" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
 <label x="15.24" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PB2" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB2"/>
+<wire x1="218.44" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
+<label x="226.06" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="5"/>
+<wire x1="53.34" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<label x="58.42" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

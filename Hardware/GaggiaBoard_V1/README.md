@@ -12,8 +12,8 @@ J1 - UART6 (PA11/12)
 J2, J3 - I2Cs
 J4, J5 - thermocouples
 J6 - Pressure sensor (ADS101X/ADS111X on I2C2)
-J7 - Brew (PB1) / Steam (PB0) switch
-J8 - Scales (PA1 -> CLK, PA2 -> D1, PA3 -> D2)
+J7 - Brew (PA1) / Steam (PA2) switch
+J8 - Scales (PB0 -> CLK, PB1 -> D1, PB2 -> D2)
 J9 - SSR control (PA6 -> SSR1, PA8 -> SSR2)
 
 AC zero-cross sense on PA0
