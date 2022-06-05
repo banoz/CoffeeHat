@@ -1,5 +1,7 @@
 # Generic espresso machine control board
 
+Arduino Nano-based control board for an espresso maker.
+
 **WIP**
 
 SubBoard_V1 is an extension board to use on top of MainBoard_V1 for Gaggiuino.
