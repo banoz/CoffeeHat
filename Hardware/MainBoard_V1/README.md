@@ -18,8 +18,8 @@ A3 - D2   /
 A4 - I2C SDA
 A5 - I2C SCL
 
-A6 - Brew switch
-A7 - Steam switch
+D8 - Brew switch
+D7 - Steam switch
 
 D0 - NEXTION TX
 D1 - NEXTION RX
