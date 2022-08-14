@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -181,7 +181,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5" projecturn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5I0QyMDIyMDEwNDQ4MTQ5MTcwNg" f3durn="urn:adsk.wipprod:dm.lineage:6w6Byw4bTdmTaueqAgbUEw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="172b21af-06b0-469f-97ae-7bcfc94109dc" lastsyncedrevisionid="172b21af-06b0-469f-97ae-7bcfc94109dc" lastboardhashguid="f24e53fc-158b-1f6d-4315-241966646160" lastpushedtime="2022-07-08T06:02:15Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5" projecturn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5I0QyMDIyMDEwNDQ4MTQ5MTcwNg" f3durn="urn:adsk.wipprod:dm.lineage:6w6Byw4bTdmTaueqAgbUEw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="f5b72319-5f83-45ac-8c5c-21c1cc47dbd0" lastsyncedrevisionid="f5b72319-5f83-45ac-8c5c-21c1cc47dbd0" lastboardhashguid="f5f3250e-0ac0-ee41-2de5-6bbe57c72a9f" lastpushedtime="2022-08-14T00:36:34Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-2.5" y1="-6" x2="92.5" y2="-6" width="0" layer="20"/>
 <wire x1="92.5" y1="-6" x2="96" y2="-2.5" width="0" layer="20" curve="90"/>
@@ -2899,12 +2899,12 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-74.24" y="-65.39" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="66.095" y="7.635" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF/16V" x="93" y="34" smashed="yes" rot="R90">
-<attribute name="LCSC" value="C86275" x="235.24" y="116.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="91.965" y="33.365" size="0.6096" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="37" x="235.24" y="116.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="235.24" y="116.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="94.905" y="33.365" size="1.27" layer="27" rot="R90"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF/16V" x="92" y="25.5" smashed="yes">
+<attribute name="LCSC" value="C86275" x="174.55" y="-116.74" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="89.206" y="25.138" size="0.6096" layer="25"/>
+<attribute name="POPULARITY" value="37" x="174.55" y="-116.74" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="174.55" y="-116.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="91.365" y="23.595" size="1.27" layer="27"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF/16V" x="34" y="52" smashed="yes" rot="R90">
 <attribute name="LCSC" value="C86275" x="176.24" y="144.71" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2962,13 +2962,13 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="84.238" y="75" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" override_package3d_urn="urn:adsk.eagle:package:36461295/2" override_package_urn="urn:adsk.eagle:footprint:30315/1" value="LD117AS33TR" x="90" y="37" smashed="yes" rot="MR180">
-<attribute name="LCSC" value="C152529" x="209.38" y="125.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="LCSC" value="C26537" x="209.38" y="125.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="88.66" y="43.1492" size="1.27" layer="26" rot="MR180"/>
 <attribute name="POPULARITY" value="9" x="209.38" y="125.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="87.46" y="38.3208" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" override_package3d_urn="urn:adsk.eagle:package:36461293/2" override_package_urn="urn:adsk.eagle:footprint:30315/1" value="LD117AS33TR" x="39" y="54" smashed="yes" rot="R180">
-<attribute name="LCSC" value="C152529" x="16.14" y="163.22" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC" value="C26537" x="16.14" y="163.22" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.44" y="49.4492" size="1.27" layer="25" rot="R180"/>
 <attribute name="POPULARITY" value="9" x="16.14" y="163.22" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="41.54" y="55.3208" size="1.27" layer="27" rot="R180" display="off"/>
@@ -3154,17 +3154,17 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="30.287" y="40" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" override_package3d_urn="urn:adsk.eagle:package:36462256/4" override_package_urn="urn:adsk.eagle:footprint:6239914/1" value="" x="36" y="31" smashed="yes">
-<attribute name="LCSC" value="C375534" x="163" y="-96" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C125086" x="163" y="-96" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.73" y="29.93" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="38.54" y="29.73" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" override_package3d_urn="urn:adsk.eagle:package:36462272/2" override_package_urn="urn:adsk.eagle:footprint:6239914/1" value="" x="36" y="20" smashed="yes">
-<attribute name="LCSC" value="C375534" x="49.97" y="-115.89" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C125086" x="49.97" y="-115.89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.73" y="18.93" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="38.54" y="18.73" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" override_package3d_urn="urn:adsk.eagle:package:36462279/2" override_package_urn="urn:adsk.eagle:footprint:6239914/1" value="" x="36" y="42" smashed="yes">
-<attribute name="LCSC" value="C375534" x="55.05" y="-93.89" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C125086" x="55.05" y="-93.89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.83" y="41.03" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="38.54" y="40.73" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -3499,7 +3499,7 @@ design rules under a new name.</description>
 </element>
 <element name="U1" library="discrete" library_urn="urn:adsk.eagle:library:211" package="BLACKPILL" override_package3d_urn="urn:adsk.eagle:package:36462313/2" override_package_urn="urn:adsk.eagle:footprint:36462314/1" value="BLACKPILL" x="70" y="38" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.4" y="51.3" size="1.27" layer="21" rot="R180"/>
-<attribute name="VALUE" x="95.342" y="26.224" size="1.27" layer="21" rot="R180"/>
+<attribute name="VALUE" x="95.088" y="28.002" size="1.016" layer="21" rot="R180"/>
 </element>
 <element name="U2" library="SparkFun-IC-Conversion" package="SO08" override_package3d_urn="urn:adsk.eagle:package:36462208/2" override_package_urn="urn:adsk.eagle:footprint:36462209/1" value="MAX31855K" x="82" y="69" smashed="yes" rot="R180">
 <attribute name="LCSC" value="C52028" x="-20.87" y="196" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3854,8 +3854,8 @@ design rules under a new name.</description>
 <wire x1="93.749" y1="36.288" x2="92.3" y2="37.737" width="1.27" layer="16"/>
 <wire x1="92.3" y1="37.737" x2="92.3" y2="40.15" width="1.27" layer="16"/>
 <contactref element="C8" pad="1"/>
-<wire x1="93" y1="33.15" x2="93" y2="30.52" width="0.8128" layer="1"/>
-<wire x1="93" y1="30.52" x2="92.86" y2="30.38" width="0.8128" layer="1"/>
+<wire x1="92.86" y1="30.38" x2="91.15" y2="28.67" width="0.8128" layer="1"/>
+<wire x1="91.15" y1="28.67" x2="91.15" y2="25.5" width="0.8128" layer="1"/>
 </signal>
 <signal name="3V3">
 <contactref element="J3" pad="2"/>
@@ -4436,10 +4436,11 @@ design rules under a new name.</description>
 <via x="41" y="5" extent="1-16" drill="0.35"/>
 <wire x1="41" y1="5" x2="41" y2="6.422" width="0.4064" layer="1"/>
 <wire x1="41" y1="6.422" x2="41.578" y2="7" width="0.4064" layer="1"/>
-<wire x1="41" y1="5" x2="41" y2="-1.672" width="0.4064" layer="16"/>
+<wire x1="41" y1="5" x2="42.27" y2="3.73" width="0.4064" layer="16"/>
+<wire x1="42.27" y1="3.73" x2="42.27" y2="-1.672" width="0.4064" layer="16"/>
 <wire x1="5" y1="-1.19" x2="5" y2="0.35" width="0.4064" layer="16"/>
-<wire x1="41" y1="-1.672" x2="39.37" y2="-3.302" width="0.4064" layer="16"/>
-<wire x1="39.37" y1="-3.302" x2="7.112" y2="-3.302" width="0.4064" layer="16"/>
+<wire x1="42.27" y1="-1.672" x2="40.64" y2="-3.302" width="0.4064" layer="16"/>
+<wire x1="40.64" y1="-3.302" x2="7.112" y2="-3.302" width="0.4064" layer="16"/>
 <wire x1="7.112" y1="-3.302" x2="5" y2="-1.19" width="0.4064" layer="16"/>
 <polygon width="0.254" layer="16">
 <vertex x="-6" y="41"/>
@@ -4836,10 +4837,10 @@ design rules under a new name.</description>
 <contactref element="Q10" pad="2"/>
 <contactref element="D5" pad="A"/>
 <contactref element="C6" pad="2"/>
-<wire x1="58" y1="6.20289375" x2="58" y2="8.05" width="0.4064" layer="1"/>
-<wire x1="59.2056" y1="4.99729375" x2="58" y2="6.20289375" width="0.4064" layer="1"/>
-<wire x1="57" y1="0.15" x2="59.2056" y2="2.3556" width="0.4064" layer="1"/>
-<wire x1="59.2056" y1="2.3556" x2="59.2056" y2="4.99729375" width="0.4064" layer="1"/>
+<wire x1="58" y1="6.58389375" x2="58" y2="8.05" width="0.4064" layer="1"/>
+<wire x1="59.3326" y1="5.25129375" x2="58" y2="6.58389375" width="0.4064" layer="1"/>
+<wire x1="57" y1="0.15" x2="59.3326" y2="2.4826" width="0.4064" layer="1"/>
+<wire x1="59.3326" y1="2.4826" x2="59.3326" y2="5.25129375" width="0.4064" layer="1"/>
 <wire x1="56" y1="8.95" x2="57.1" y2="8.95" width="0.4064" layer="1"/>
 <wire x1="57.1" y1="8.95" x2="58" y2="8.05" width="0.4064" layer="1"/>
 </signal>
@@ -5064,10 +5065,10 @@ design rules under a new name.</description>
 <contactref element="F1" pad="1"/>
 <wire x1="10" y1="5.65" x2="10" y2="0.35" width="2.54" layer="1"/>
 <wire x1="10" y1="0.35" x2="10.65" y2="1" width="2.54" layer="1"/>
-<wire x1="10.65" y1="1" x2="14.57" y2="1" width="2.54" layer="1"/>
+<wire x1="10.65" y1="1" x2="14.57" y2="1" width="3.81" layer="1"/>
 <wire x1="10" y1="5.65" x2="10" y2="0.35" width="2.54" layer="16"/>
 <wire x1="10" y1="0.35" x2="10.65" y2="1" width="2.54" layer="16"/>
-<wire x1="10.65" y1="1" x2="14.57" y2="1" width="2.54" layer="16"/>
+<wire x1="10.65" y1="1" x2="14.57" y2="1" width="3.81" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

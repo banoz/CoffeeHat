@@ -19249,13 +19249,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="LCSC" value="C155378"/>
 </part>
 <part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" override_package3d_urn="urn:adsk.eagle:package:36462256/4" override_package_urn="urn:adsk.eagle:footprint:6239914/1">
-<attribute name="LCSC" value="C375534"/>
+<attribute name="LCSC" value="C125086"/>
 </part>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" override_package3d_urn="urn:adsk.eagle:package:36462272/2" override_package_urn="urn:adsk.eagle:footprint:6239914/1">
-<attribute name="LCSC" value="C375534"/>
+<attribute name="LCSC" value="C125086"/>
 </part>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_1206" package3d_urn="urn:adsk.eagle:package:6240560/1" override_package3d_urn="urn:adsk.eagle:package:36462279/2" override_package_urn="urn:adsk.eagle:footprint:6239914/1">
-<attribute name="LCSC" value="C375534"/>
+<attribute name="LCSC" value="C125086"/>
 </part>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="120">
 <spice>
@@ -19295,7 +19295,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="LCSC" value="C98220"/>
 </part>
 <part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" override_package3d_urn="urn:adsk.eagle:package:36461295/2" override_package_urn="urn:adsk.eagle:footprint:30315/1" technology="33TR" value="LD117AS33TR">
-<attribute name="LCSC" value="C152529"/>
+<attribute name="LCSC" value="C26537"/>
 </part>
 <part name="SUPPLY9" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF/16V">
@@ -19637,7 +19637,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="LCSC" value="C86275"/>
 </part>
 <part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" override_package3d_urn="urn:adsk.eagle:package:36461293/2" override_package_urn="urn:adsk.eagle:footprint:30315/1" technology="33TR" value="LD117AS33TR">
-<attribute name="LCSC" value="C152529"/>
+<attribute name="LCSC" value="C26537"/>
 </part>
 <part name="SUPPLY13" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="Q11" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH_DUAL" device="-DMP2240UDM" override_package3d_urn="urn:adsk.eagle:package:36462184/2" override_package_urn="urn:adsk.eagle:footprint:36462185/1" value="">
