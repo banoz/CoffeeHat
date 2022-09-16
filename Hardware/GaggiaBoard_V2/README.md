@@ -23,9 +23,7 @@ Heater 1 relay on PB13
 Heater 2 relay on PB12
 3-Way valve control on PC13
 
-SPI1 on PA4/5/7/PB4 pins is used by FLASH on board or MicroSD card
-
-SPI1 is also used for thermocouple on PA5(SPI1_SCK)/PB4(SPI1_MISO), and CS on PA6
+SPI1 is used by thermocouple amplifier on PA5(SPI1_SCK)/PB4(SPI1_MISO), and CS on PA6
 
 Two I2C ports on PB6(I2C1_SCL)/PB7(I2C1_SDA) and PB10(I2C2_SCL)/PB3(I2C2_SDA)
 
