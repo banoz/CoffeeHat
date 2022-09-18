@@ -14111,6 +14111,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-5" y="-3.5" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-0.5" y1="-2" x2="0.5" y2="-1.5" layer="21"/>
 </package>
+<package name="B6B-PH-K-S">
+<wire x1="-7" y1="-2" x2="7" y2="-2" width="0.127" layer="21"/>
+<wire x1="7" y1="-2" x2="7" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-7" y1="-2" x2="-7" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-7" y1="2.5" x2="7" y2="2.5" width="0.127" layer="21"/>
+<pad name="1" x="5" y="0" drill="0.8128" shape="square"/>
+<pad name="2" x="3" y="0" drill="0.8128"/>
+<pad name="3" x="1" y="0" drill="0.8128"/>
+<pad name="4" x="-1" y="0" drill="0.8128"/>
+<pad name="5" x="-3" y="0" drill="0.8128"/>
+<pad name="6" x="-5" y="0" drill="0.8128"/>
+<text x="-7" y="-3.5" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.5" y1="-2" x2="0.5" y2="-1.5" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="3PIN">
@@ -14154,6 +14168,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="2" x="-5.08" y="0" length="middle"/>
 <pin name="3" x="-5.08" y="-2.54" length="middle"/>
 <pin name="4" x="-5.08" y="-5.08" length="middle"/>
+</symbol>
+<symbol name="6PIN">
+<wire x1="0" y1="-10.16" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="-12.7" size="1.27" layer="95">&gt;NAME</text>
+<pin name="1" x="-5.08" y="5.08" length="middle"/>
+<pin name="2" x="-5.08" y="2.54" length="middle"/>
+<pin name="3" x="-5.08" y="0" length="middle"/>
+<pin name="4" x="-5.08" y="-2.54" length="middle"/>
+<pin name="5" x="-5.08" y="-5.08" length="middle"/>
+<pin name="6" x="-5.08" y="-7.62" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14220,6 +14247,26 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="6PIN" prefix="JP">
+<gates>
+<gate name="G$1" symbol="6PIN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="B6B-PH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15157,6 +15204,9 @@ Updated by Ella Wu, 2022-06-21
 </part>
 <part name="MARK7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1" override_package3d_urn="urn:adsk.eagle:package:36462288/4" override_package_urn="urn:adsk.eagle:footprint:6239986/1"/>
 <part name="MARK8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1" override_package3d_urn="urn:adsk.eagle:package:36462288/4" override_package_urn="urn:adsk.eagle:footprint:6239986/1"/>
+<part name="J27" library="jst_eph" deviceset="6PIN" device="" override_package3d_urn="urn:adsk.eagle:package:37272821/2" override_package_urn="urn:adsk.eagle:footprint:37272822/1">
+<attribute name="LCSC" value="C131342"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -15320,6 +15370,10 @@ Updated by Ella Wu, 2022-06-21
 <attribute name="NAME" x="12.7" y="180.34" size="1.27" layer="95" rot="R180"/>
 <attribute name="LCSC" x="12.7" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="J27" gate="G$1" x="12.7" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7" y="132.08" size="1.27" layer="95" rot="R180"/>
+<attribute name="LCSC" x="12.7" y="119.38" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15418,6 +15472,11 @@ Updated by Ella Wu, 2022-06-21
 <wire x1="17.78" y1="167.64" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
 <label x="25.4" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J27" gate="G$1" pin="4"/>
+<wire x1="17.78" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
+<label x="22.86" y="121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V" class="0">
 <segment>
@@ -15515,6 +15574,11 @@ Updated by Ella Wu, 2022-06-21
 <wire x1="147.32" y1="154.94" x2="147.32" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="167.64" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
 <junction x="132.08" y="167.64"/>
+</segment>
+<segment>
+<pinref part="J27" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<label x="22.86" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C2_SDA" class="0">
@@ -15777,6 +15841,11 @@ Updated by Ella Wu, 2022-06-21
 <wire x1="187.96" y1="154.94" x2="172.72" y2="154.94" width="0.1524" layer="91"/>
 <label x="172.72" y="154.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J27" gate="G$1" pin="3"/>
+<wire x1="17.78" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
+<label x="17.78" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="UART1_RX" class="0">
 <segment>
@@ -15784,12 +15853,22 @@ Updated by Ella Wu, 2022-06-21
 <wire x1="187.96" y1="152.4" x2="172.72" y2="152.4" width="0.1524" layer="91"/>
 <label x="172.72" y="152.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J27" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="116.84" x2="27.94" y2="116.84" width="0.1524" layer="91"/>
+<label x="17.78" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="NRST" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="NRST"/>
 <wire x1="218.44" y1="129.54" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
 <label x="226.06" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J27" gate="G$1" pin="5"/>
+<wire x1="17.78" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
+<label x="22.86" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$47" class="0">
@@ -15849,6 +15928,11 @@ Updated by Ella Wu, 2022-06-21
 <pinref part="U1" gate="G$1" pin="PB2"/>
 <wire x1="218.44" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
 <label x="226.06" y="157.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J27" gate="G$1" pin="6"/>
+<wire x1="17.78" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
+<label x="22.86" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART2_RX" class="0">
