@@ -17272,6 +17272,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </part>
 <part name="SUPPLY22" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 <part name="PSU1" library="discrete" deviceset="IRM-10-5" device="" override_package3d_urn="urn:adsk.eagle:package:36415007/2" override_package_urn="urn:adsk.eagle:footprint:36415008/1" override_locally_modified="yes">
+<attribute name="LCSC" value="C2857903"/>
 <attribute name="SPICEPREFIX" value="E"/>
 </part>
 <part name="SUPPLY23" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
@@ -17717,9 +17718,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="55.88" y1="170.18" x2="55.88" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="167.64" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
-<label x="25.4" y="167.64" size="1.778" layer="95"/>
+<label x="20.32" y="175.26" size="1.778" layer="95"/>
+<wire x1="17.78" y1="175.26" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="J27" gate="G$1" pin="4"/>
@@ -17777,9 +17778,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="45.72" y="93.98"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="17.78" y1="175.26" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
-<label x="27.94" y="175.26" size="1.778" layer="95"/>
+<label x="20.32" y="167.64" size="1.778" layer="95"/>
+<wire x1="17.78" y1="167.64" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -18191,9 +18192,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="226.06" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="17.78" y1="172.72" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
-<label x="17.78" y="172.72" size="1.778" layer="95"/>
+<label x="20.32" y="170.18" size="1.778" layer="95"/>
+<wire x1="17.78" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="UART2_TX" class="0">
@@ -18203,9 +18204,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="226.06" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="170.18" x2="30.48" y2="170.18" width="0.1524" layer="91"/>
-<label x="17.78" y="170.18" size="1.778" layer="95"/>
+<label x="20.32" y="172.72" size="1.778" layer="95"/>
+<wire x1="17.78" y1="172.72" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="PB9" class="0">
@@ -18416,6 +18417,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="PSU1" gate="G$1" x="45.72" y="17.78" smashed="yes">
 <attribute name="NAME" x="38.1" y="25.4" size="1.27" layer="95"/>
 <attribute name="VALUE" x="38.1" y="10.16" size="1.27" layer="96"/>
+<attribute name="LCSC" x="45.72" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY23" gate="G$1" x="60.96" y="10.16" smashed="yes">
 <attribute name="VALUE" x="60.96" y="8.255" size="1.778" layer="96" align="center"/>

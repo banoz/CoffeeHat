@@ -18610,6 +18610,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="jst_exh">
+<description>JST XH series crimp-style 2.5mm connectors</description>
+<packages>
+<package name="B4B-XH-K-S">
+<wire x1="-6.2" y1="-2.35" x2="6.2" y2="-2.35" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-2.35" x2="6.2" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="-2.35" x2="-6.2" y2="3.4" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="3.4" x2="6.2" y2="3.4" width="0.127" layer="21"/>
+<pad name="1" x="3.75" y="0" drill="0.9" shape="square"/>
+<pad name="2" x="1.25" y="0" drill="0.9"/>
+<pad name="3" x="-1.25" y="0" drill="0.9"/>
+<pad name="4" x="-3.75" y="0" drill="0.9"/>
+<text x="-6.2" y="-3.85" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.5" y1="-2.35" x2="0.5" y2="-1.85" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="4PIN">
+<wire x1="0" y1="-7.62" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="-10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="1" x="-5.08" y="2.54" length="middle"/>
+<pin name="2" x="-5.08" y="0" length="middle"/>
+<pin name="3" x="-5.08" y="-2.54" length="middle"/>
+<pin name="4" x="-5.08" y="-5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="4PIN" prefix="JP">
+<gates>
+<gate name="G$1" symbol="4PIN" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="B4B-XH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18620,9 +18670,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_04" device="POLAR" override_package3d_urn="urn:adsk.eagle:package:36462044/3" override_package_urn="urn:adsk.eagle:footprint:36462045/1">
-<attribute name="LCSC" value="C144395"/>
-</part>
 <part name="U1" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="BLACKPILL" device="" override_package3d_urn="urn:adsk.eagle:package:36462313/2" override_package_urn="urn:adsk.eagle:footprint:36462314/1"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" override_package3d_urn="urn:adsk.eagle:package:36462029/2" override_package_urn="urn:adsk.eagle:footprint:36462030/1" value="Vertical Qwiic Connector">
 <attribute name="LCSC" value="C160390"/>
@@ -19045,6 +19092,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="LCSC" value="C727081"/>
 </part>
 <part name="PSU1" library="discrete" deviceset="IRM-10-5" device="" override_package3d_urn="urn:adsk.eagle:package:36415007/2" override_package_urn="urn:adsk.eagle:footprint:36415008/1" override_locally_modified="yes">
+<attribute name="LCSC" value="C2857903"/>
 <attribute name="SPICEPREFIX" value="E"/>
 </part>
 <part name="SUPPLY23" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
@@ -19186,17 +19234,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </spice>
 <attribute name="LCSC" value="C98220"/>
 </part>
+<part name="J1" library="jst_exh" deviceset="4PIN" device="" override_package3d_urn="urn:adsk.eagle:package:37572770/2" override_package_urn="urn:adsk.eagle:footprint:37572771/1">
+<attribute name="LCSC" value="C144395"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="J1" x="10.16" y="170.18" smashed="yes">
-<attribute name="VALUE" x="5.08" y="162.814" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="5.08" y="178.308" size="1.778" layer="95" font="vector"/>
-<attribute name="LCSC" x="10.16" y="170.18" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="U1" gate="G$1" x="203.2" y="144.78" smashed="yes">
 <attribute name="NAME" x="193.04" y="173.482" size="1.27" layer="94"/>
 <attribute name="VALUE" x="193.04" y="111.76" size="1.27" layer="94"/>
@@ -19383,15 +19429,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY11" gate="G$1" x="55.88" y="167.64" smashed="yes">
 <attribute name="VALUE" x="55.88" y="165.735" size="1.778" layer="96" align="center"/>
 </instance>
+<instance part="J1" gate="G$1" x="12.7" y="170.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.7" y="180.34" size="1.27" layer="95" rot="R180"/>
+<attribute name="LCSC" x="12.7" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="4"/>
-<wire x1="15.24" y1="175.26" x2="22.86" y2="175.26" width="0.1524" layer="91"/>
-<label x="17.78" y="175.26" size="1.778" layer="95"/>
+<label x="20.32" y="175.26" size="1.778" layer="95"/>
+<wire x1="17.78" y1="175.26" x2="27.94" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
@@ -19506,9 +19556,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="1"/>
-<wire x1="15.24" y1="167.64" x2="22.86" y2="167.64" width="0.1524" layer="91"/>
 <label x="20.32" y="167.64" size="1.778" layer="95"/>
+<wire x1="17.78" y1="167.64" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="5V"/>
@@ -20036,9 +20086,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="226.06" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="2"/>
-<wire x1="15.24" y1="170.18" x2="22.86" y2="170.18" width="0.1524" layer="91"/>
-<label x="17.78" y="170.18" size="1.778" layer="95"/>
+<label x="20.32" y="170.18" size="1.778" layer="95"/>
+<wire x1="17.78" y1="170.18" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="UART2_TX" class="0">
@@ -20048,9 +20098,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="226.06" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="3"/>
-<wire x1="15.24" y1="172.72" x2="22.86" y2="172.72" width="0.1524" layer="91"/>
-<label x="17.78" y="172.72" size="1.778" layer="95"/>
+<label x="20.32" y="172.72" size="1.778" layer="95"/>
+<wire x1="17.78" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="PB9" class="0">
@@ -20437,6 +20487,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="PSU1" gate="G$1" x="63.5" y="35.56" smashed="yes">
 <attribute name="NAME" x="55.88" y="43.18" size="1.27" layer="95"/>
 <attribute name="VALUE" x="55.88" y="27.94" size="1.27" layer="96"/>
+<attribute name="LCSC" x="63.5" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY23" gate="G$1" x="78.74" y="27.94" smashed="yes">
 <attribute name="VALUE" x="78.74" y="26.035" size="1.778" layer="96" align="center"/>
