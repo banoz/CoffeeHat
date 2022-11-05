@@ -2,6 +2,8 @@
 
 Gaggiuino hardware controller board v3 - WIP
 
+[3D model](https://github.com/banoz/banoz.github.io/blob/main/repository/stl/GaggiaBoard_V3.stl)
+
 ```
 J10, J11 - AC input
 J12 - pump

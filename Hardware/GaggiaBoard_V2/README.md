@@ -1,6 +1,9 @@
 # Gaggiuino board
 
 Next-gen Gaggiuino hardware controller board - WIP
+
+[3D model](https://github.com/banoz/banoz.github.io/blob/main/repository/stl/GaggiaBoard_V2.stl)
+
 ```
 J14 - boiler 1
 J11 - boiler 2
