@@ -19538,6 +19538,24 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </spice>
 <attribute name="LCSC" value="C107696"/>
 </part>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10nF">
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C107192"/>
+</part>
+<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="220">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C877859"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -20732,15 +20750,15 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </instance>
 <instance part="MARK4" gate="G$1" x="243.84" y="40.64" smashed="yes"/>
 <instance part="MARK3" gate="G$1" x="241.3" y="40.64" smashed="yes"/>
-<instance part="R13" gate="G$1" x="205.74" y="165.1" smashed="yes">
-<attribute name="NAME" x="201.93" y="166.5986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.93" y="161.798" size="1.778" layer="96"/>
-<attribute name="LCSC" x="205.74" y="165.1" size="1.778" layer="96" display="off"/>
+<instance part="R13" gate="G$1" x="215.9" y="165.1" smashed="yes">
+<attribute name="NAME" x="212.09" y="166.5986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="161.798" size="1.778" layer="96"/>
+<attribute name="LCSC" x="215.9" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="215.9" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="215.265" y="166.116" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="220.091" y="166.116" size="1.778" layer="96" rot="R90"/>
-<attribute name="LCSC" x="215.9" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C5" gate="G$1" x="203.2" y="165.1" smashed="yes" rot="R90">
+<attribute name="NAME" x="202.565" y="166.116" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="207.391" y="166.116" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="203.2" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q8" gate="G$1" x="40.64" y="101.6" smashed="yes">
 <attribute name="NAME" x="43.18" y="101.6" size="1.778" layer="95" font="vector"/>
@@ -20960,6 +20978,16 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <attribute name="VALUE" x="181.61" y="133.858" size="1.778" layer="96"/>
 <attribute name="LCSC" x="185.42" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="C16" gate="G$1" x="203.2" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="202.565" y="148.336" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="207.391" y="148.336" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="203.2" y="147.32" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R35" gate="G$1" x="215.9" y="147.32" smashed="yes">
+<attribute name="NAME" x="212.09" y="148.8186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="144.018" size="1.778" layer="96"/>
+<attribute name="LCSC" x="215.9" y="147.32" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -20981,14 +21009,9 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <pinref part="J15" gate="-1" pin="1"/>
 </segment>
 <segment>
-<label x="187.96" y="170.18" size="1.778" layer="95"/>
+<label x="210.82" y="170.18" size="1.778" layer="95"/>
 <pinref part="J18" gate="-1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="170.18" x2="226.06" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="165.1" x2="198.12" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="165.1" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
-<junction x="198.12" y="170.18"/>
-<wire x1="187.96" y1="170.18" x2="198.12" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="170.18" x2="226.06" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="5.08" y="50.8" size="1.778" layer="95"/>
@@ -21057,6 +21080,16 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <wire x1="27.94" y1="27.94" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
 <label x="30.48" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="165.1" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
+<label x="195.58" y="165.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="195.58" y="147.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="HEATER_2" class="0">
 <segment>
@@ -21067,9 +21100,14 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </net>
 <net name="3WAY" class="0">
 <segment>
-<wire x1="226.06" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="J16" gate="-1" pin="1"/>
 <pinref part="K3" gate="G$1" pin="DS1"/>
+<wire x1="226.06" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="147.32" x2="223.52" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="147.32" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
+<junction x="223.52" y="139.7"/>
 </segment>
 </net>
 <net name="HEATER_1" class="0">
@@ -21457,13 +21495,6 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <label x="111.76" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$32" class="0">
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="165.1" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="Q9" gate="G$1" pin="E"/>
@@ -21506,13 +21537,13 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <segment>
 <pinref part="J17" gate="-1" pin="1"/>
 <wire x1="226.06" y1="160.02" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="TR1" gate="G$1" pin="A1"/>
 <wire x1="223.52" y1="160.02" x2="170.18" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="160.02" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="165.1" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
 <junction x="223.52" y="160.02"/>
-<pinref part="TR1" gate="G$1" pin="A1"/>
-<wire x1="170.18" y1="160.02" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -21667,6 +21698,20 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <pinref part="K3" gate="G$1" pin="A"/>
 <wire x1="193.04" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="165.1" x2="210.82" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="147.32" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
