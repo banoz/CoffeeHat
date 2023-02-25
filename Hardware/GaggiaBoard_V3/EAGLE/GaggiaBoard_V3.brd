@@ -2722,7 +2722,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="5.15" y="6.19" size="1.778" layer="27"/>
 </element>
 <element name="J4" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-2-NS" override_package3d_urn="urn:adsk.eagle:package:36462297/4" override_package_urn="urn:adsk.eagle:footprint:36462298/2" value="" x="5.5" y="86.3" smashed="yes">
-<attribute name="LCSC" value="C474893" x="38.52" y="7.56" size="1.778" layer="27" display="off"/>
+<attribute name="LCSC" value="C474892" x="38.52" y="7.56" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.659" y="88.683" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-08399" x="38.52" y="7.56" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.532" y="81.728" size="0.6096" layer="27" font="vector" ratio="20"/>

@@ -17383,7 +17383,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="LCSC" value="C98220"/>
 </part>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="3.5MM-NO_SILK" override_package3d_urn="urn:adsk.eagle:package:36462297/4" override_package_urn="urn:adsk.eagle:footprint:36462298/2">
-<attribute name="LCSC" value="C474893"/>
+<attribute name="LCSC" value="C474892"/>
 </part>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
 <spice>
