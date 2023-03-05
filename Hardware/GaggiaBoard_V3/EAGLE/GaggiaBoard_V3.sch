@@ -13432,7 +13432,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="con-faston" urn="urn:adsk.eagle:library:144">
+<library name="con-faston">
 <description>&lt;b&gt;FASTON Connector&lt;/b&gt; Printed Circuit Board Tabs&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
@@ -13498,12 +13498,12 @@ Distributor: Bürklin 05 F 282</description>
 <text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
 <text x="5.08" y="1.27" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="62409-1" urn="urn:adsk.eagle:footprint:6751/1" library_version="1">
+<package name="62409-1" urn="urn:adsk.eagle:footprint:6751/1" locally_modified="yes">
 <description>&lt;b&gt;TAB, FASTON, PC Board, 6,35 (.250) Series&lt;/b&gt;&lt;p&gt;
 Distributor: Digikey - Nb.  A24742-ND&lt;br&gt;
 Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
-<pad name="A1" x="-2.65" y="0" drill="1.5" diameter="1.9" shape="long"/>
-<pad name="A2" x="2.65" y="0" drill="1.5" diameter="1.9" shape="long"/>
+<pad name="A1" x="-2.54" y="0" drill="1.5" diameter="1.9" shape="long"/>
+<pad name="A2" x="2.54" y="0" drill="1.5" diameter="1.9" shape="long"/>
 <text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
 <rectangle x1="-3.75" y1="-0.4" x2="3.75" y2="0.4" layer="51"/>
@@ -13558,7 +13558,7 @@ Distributor: Bürklin 05 F 282</description>
 <packageinstance name="F061.220"/>
 </packageinstances>
 </package3d>
-<package3d name="62409-1" urn="urn:adsk.eagle:package:6760/1" type="box" library_version="1">
+<package3d name="62409-1" urn="urn:adsk.eagle:package:39428999/1" type="box">
 <description>TAB, FASTON, PC Board, 6,35 (.250) Series
 Distributor: Digikey - Nb.  A24742-ND
 Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
@@ -13568,7 +13568,7 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="PIN" urn="urn:adsk.eagle:symbol:6744/1" library_version="1">
+<symbol name="PIN">
 <text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="0" y1="-0.508" x2="2.54" y2="0.508" layer="94"/>
@@ -13576,7 +13576,7 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PIN2" urn="urn:adsk.eagle:component:6765/1" prefix="J" library_version="1">
+<deviceset name="PIN2" prefix="J">
 <description>&lt;b&gt;Flachstecker Typ Tyco/Electronics/AMP&lt;/b&gt; TAB, FASTON&lt;p&gt;
 Printed Circuit Board Tabs&lt;br&gt;
 Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description>
@@ -13685,7 +13685,7 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <connect gate="-1" pin="1" pad="A1 A2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6760/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39428999/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -14125,6 +14125,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-7" y="-3.5" size="1.27" layer="25">&gt;NAME</text>
 <rectangle x1="-0.5" y1="-2" x2="0.5" y2="-1.5" layer="21"/>
 </package>
+<package name="B3B-PH-SM4-TB">
+<description>B3B-PH-SM4-TB</description>
+<wire x1="-3" y1="-5" x2="-5" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5" y1="-5" x2="-5" y2="0" width="0.127" layer="21"/>
+<wire x1="-5" y1="0" x2="5" y2="0" width="0.127" layer="21"/>
+<wire x1="5" y1="0" x2="5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5" y1="-5" x2="3" y2="-5" width="0.127" layer="21"/>
+<smd name="1" x="-2" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="0" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="2" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="P1" x="-4.4" y="-2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P2" x="4.4" y="-2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
+<text x="-5" y="1" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="B5B-PH-SM4-TB">
+<description>B5B-PH-SM4-TB</description>
+<wire x1="-5" y1="-5" x2="-7" y2="-5" width="0.127" layer="21"/>
+<wire x1="-7" y1="-5" x2="-7" y2="0" width="0.127" layer="21"/>
+<wire x1="-7" y1="0" x2="7" y2="0" width="0.127" layer="21"/>
+<wire x1="7" y1="0" x2="7" y2="-5" width="0.127" layer="21"/>
+<wire x1="7" y1="-5" x2="5" y2="-5" width="0.127" layer="21"/>
+<smd name="1" x="-4" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-2" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="0" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="2" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="5" x="4" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="P1" x="-6.4" y="-2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P2" x="6.4" y="-2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
+<text x="-7" y="1" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="B2B-PH-SM4-TB">
+<description>B2B-PH-SM4-TB</description>
+<wire x1="-2" y1="-5" x2="-4" y2="-5" width="0.127" layer="21"/>
+<wire x1="-4" y1="-5" x2="-4" y2="0" width="0.127" layer="21"/>
+<wire x1="-4" y1="0" x2="4" y2="0" width="0.127" layer="21"/>
+<wire x1="4" y1="0" x2="4" y2="-5" width="0.127" layer="21"/>
+<wire x1="4" y1="-5" x2="2" y2="-5" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="1" y="-4.75" dx="5.5" dy="1" layer="1" rot="R90"/>
+<smd name="P1" x="-3.4" y="-2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
+<smd name="P2" x="3.4" y="-2.5" dx="3" dy="1.6" layer="1" rot="R90"/>
+<text x="-4" y="1" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="3PIN">
@@ -14199,6 +14242,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="B3B-PH-SM4-TB" package="B3B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="5PIN" prefix="JP">
@@ -14218,6 +14271,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name=""/>
 </technologies>
 </device>
+<device name="B5B-PH-SM4-TB" package="B5B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="2PIN" prefix="JP">
@@ -14226,6 +14291,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </gates>
 <devices>
 <device name="" package="B2B-PH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B2B-PH-SM4-TB" package="B2B-PH-SM4-TB">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -14686,7 +14760,7 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WL-OCPT_SERIES_101X" urn="urn:adsk.eagle:component:25398559/3" prefix="U" library_version="7">
+<deviceset name="WL-OCPT_SERIES_101X" urn="urn:adsk.eagle:component:25398559/4" prefix="Q" library_version="8">
 <description>&lt;b&gt;WL-OCPT LSOP-4
 &lt;br&gt;Series 101x  
 &lt;/b&gt;&lt;br&gt;
@@ -14714,7 +14788,7 @@ Copyright: Würth Elektronik</description>
 &lt;/b&gt;&lt;br&gt;            
 &lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o198230v209%20WL-OCPT_LSOP4_101x_multi-parts.jpg" title="Enlarge picture"&gt;
 &lt;img src="https://www.we-online.de/katalog/media/o198230v209%20WL-OCPT_LSOP4_101x_multi-parts.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WL-OCPT_PACKAGE_LSOP-4/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.de/katalog/WL-OCPT_PACKAGE_LSOP-4&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCPT_PACKAGE_LSOP-4/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-OCPT_PACKAGE_LSOP-4&lt;/a&gt;&lt;p&gt;
 
 Updated by Ella Wu, 2022-06-21
  &lt;br&gt;2022 (C) Wurth Elektronik</description>
@@ -17167,16 +17241,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </part>
 <part name="MARK5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1" override_package3d_urn="urn:adsk.eagle:package:36462355/4" override_package_urn="urn:adsk.eagle:footprint:6239986/1"/>
 <part name="MARK6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1" override_package3d_urn="urn:adsk.eagle:package:36462288/4" override_package_urn="urn:adsk.eagle:footprint:6239986/1"/>
-<part name="J11" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461311/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J11" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461311/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J10" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461296/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J10" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461296/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J12" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461344/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J12" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461344/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J13" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461343/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J13" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461343/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
 <part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="MB*S" device="" package3d_urn="urn:adsk.eagle:package:23902/1" override_package3d_urn="urn:adsk.eagle:package:36462233/2" override_package_urn="urn:adsk.eagle:footprint:23861/1" technology="6">
@@ -18571,6 +18645,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="15.24" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="96.52" x2="198.12" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="96.52" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<junction x="198.12" y="109.22"/>
+<label x="195.58" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AC_P" class="0">
 <segment>
@@ -18584,20 +18668,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="205.74" y="129.54" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="OK2" gate="G$1" pin="A1"/>
-<wire x1="185.42" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
-<label x="195.58" y="116.84" size="1.778" layer="95"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="109.22" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
-<junction x="193.04" y="116.84"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="96.52" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<junction x="193.04" y="109.22"/>
-</segment>
-<segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
 <label x="5.08" y="40.64" size="1.778" layer="95"/>
@@ -18607,6 +18677,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="33.02" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="91"/>
 <label x="20.32" y="20.32" size="1.778" layer="95"/>
 <pinref part="J11" gate="-1" pin="1"/>
+</segment>
+<segment>
+<pinref part="OK2" gate="G$1" pin="A1"/>
+<wire x1="185.42" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="195.58" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3WAY" class="0">
