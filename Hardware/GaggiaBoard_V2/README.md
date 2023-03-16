@@ -5,8 +5,8 @@ Next-gen Gaggiuino hardware controller board - WIP
 [3D model](https://github.com/banoz/banoz.github.io/blob/main/repository/stl/GaggiaBoard_V2.stl)
 
 ```
-J14 - boiler 1
-J11 - boiler 2
+J14 - steam boiler heater element
+J11 - steam boiler supply valve
 J16 - 3-way valve
 J17 - pump
 J19, J20 - AC input
@@ -22,8 +22,8 @@ J9 - 5V SSR control (PA15 -> SSR1, PA8 -> SSR2)
 AC zero-cross sense on PA0
 Pump control on PA1
 Buzzer on PB14
-Heater 1 relay on PB13
-Heater 2 relay on PB12
+Steam boiler heater element relay on PB13
+Steam boiler supply valve relay on PB12
 3-Way valve control on PC13
 
 SPI1 is used by thermocouple amplifier on PA5(SPI1_SCK)/PB4(SPI1_MISO), and CS on PA6
