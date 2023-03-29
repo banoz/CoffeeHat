@@ -17709,274 +17709,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="con-faston" urn="urn:adsk.eagle:library:144">
-<description>&lt;b&gt;FASTON Connector&lt;/b&gt; Printed Circuit Board Tabs&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="F061.040" urn="urn:adsk.eagle:footprint:6745/1" library_version="1">
-<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt;&lt;p&gt;
-Flachstecker Typ 00.15 (F061.040)&lt;br&gt;
-Distributor: Bürklin</description>
-<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.8" layer="51"/>
-<pad name="A1" x="-2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
-<pad name="A2" x="2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
-<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-<package name="F061.060" urn="urn:adsk.eagle:footprint:6746/1" library_version="1">
-<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
-Flachstecker Typ 00.45.1 (F061.060)&lt;br&gt;
-Distributor: Bürklin 05 F 266</description>
-<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.8" layer="51"/>
-<pad name="A1" x="-2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
-<pad name="A2" x="2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
-<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-<package name="F061.080" urn="urn:adsk.eagle:footprint:6747/1" library_version="1">
-<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
-Flachstecker Typ Vogt 3866G.68 (F061.080)&lt;br&gt;
-Distributor: Bürklin 05 F 268</description>
-<wire x1="-3.6" y1="0" x2="3.6" y2="0" width="0.8" layer="51"/>
-<pad name="1A" x="-2.5" y="0" drill="1.1" diameter="2.54" shape="long"/>
-<pad name="1B" x="2.5" y="0" drill="1.1" diameter="2.54" shape="long"/>
-<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-<package name="F061.100" urn="urn:adsk.eagle:footprint:6748/1" library_version="1">
-<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
-Flachstecker Typ Vogt 3866B.68 (F061.100)&lt;br&gt;
-Distributor: Bürklin 05 F 270</description>
-<wire x1="-3.6" y1="0" x2="3.6" y2="0" width="0.8" layer="51"/>
-<pad name="A1" x="-2.5" y="0" drill="1.4" diameter="2.54" shape="long"/>
-<pad name="A2" x="2.5" y="0" drill="1.4" diameter="2.54" shape="long"/>
-<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-<package name="F061.200" urn="urn:adsk.eagle:footprint:6749/1" library_version="1">
-<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46244&lt;p&gt;
-Flachstecker Typ 17128.. (F061.200)&lt;br&gt;
-Distributor: Bürklin 05 F 280</description>
-<wire x1="-3.6" y1="0" x2="4.55" y2="0" width="0.8" layer="51"/>
-<wire x1="4.55" y1="0" x2="11.6" y2="0" width="0.8" layer="21"/>
-<pad name="1A" x="-2.5" y="0" drill="1.3" diameter="2.5" shape="long"/>
-<pad name="1B" x="2.5" y="0" drill="1.3" diameter="2.5" shape="long"/>
-<text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="5.08" y="1.27" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-<package name="F061.220" urn="urn:adsk.eagle:footprint:6750/1" library_version="1">
-<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46244&lt;p&gt;
-Flachstecker Typ 00.32 (F061.220)&lt;br&gt;
-Distributor: Bürklin 05 F 282</description>
-<wire x1="-3.6" y1="0" x2="17.1" y2="0" width="0.8" layer="51"/>
-<wire x1="5.35" y1="0" x2="17.1" y2="0" width="0.8" layer="21"/>
-<pad name="1A" x="-2.5" y="0" drill="1.2" diameter="2.5" shape="long"/>
-<pad name="1B" x="2.5" y="0" drill="1.2" diameter="2.5" shape="long"/>
-<text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="5.08" y="1.27" size="1.778" layer="27">&gt;VALUE</text>
-</package>
-<package name="62409-1" urn="urn:adsk.eagle:footprint:6751/1" library_version="1">
-<description>&lt;b&gt;TAB, FASTON, PC Board, 6,35 (.250) Series&lt;/b&gt;&lt;p&gt;
-Distributor: Digikey - Nb.  A24742-ND&lt;br&gt;
-Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
-<pad name="A1" x="-2.65" y="0" drill="1.5" diameter="1.9" shape="long"/>
-<pad name="A2" x="2.65" y="0" drill="1.5" diameter="1.9" shape="long"/>
-<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.75" y1="-0.4" x2="3.75" y2="0.4" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="F061.040" urn="urn:adsk.eagle:package:6756/1" type="box" library_version="1">
-<description>FASTON 6.3 mm x 0.8 mm
-Flachstecker Typ 00.15 (F061.040)
-Distributor: Bürklin</description>
-<packageinstances>
-<packageinstance name="F061.040"/>
-</packageinstances>
-</package3d>
-<package3d name="F061.060" urn="urn:adsk.eagle:package:6755/1" type="box" library_version="1">
-<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
-Flachstecker Typ 00.45.1 (F061.060)
-Distributor: Bürklin 05 F 266</description>
-<packageinstances>
-<packageinstance name="F061.060"/>
-</packageinstances>
-</package3d>
-<package3d name="F061.080" urn="urn:adsk.eagle:package:6757/1" type="box" library_version="1">
-<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
-Flachstecker Typ Vogt 3866G.68 (F061.080)
-Distributor: Bürklin 05 F 268</description>
-<packageinstances>
-<packageinstance name="F061.080"/>
-</packageinstances>
-</package3d>
-<package3d name="F061.100" urn="urn:adsk.eagle:package:6758/1" type="box" library_version="1">
-<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
-Flachstecker Typ Vogt 3866B.68 (F061.100)
-Distributor: Bürklin 05 F 270</description>
-<packageinstances>
-<packageinstance name="F061.100"/>
-</packageinstances>
-</package3d>
-<package3d name="F061.200" urn="urn:adsk.eagle:package:6759/1" type="box" library_version="1">
-<description>FASTON 6.3 mm x 0.8 mm DIN 46244
-Flachstecker Typ 17128.. (F061.200)
-Distributor: Bürklin 05 F 280</description>
-<packageinstances>
-<packageinstance name="F061.200"/>
-</packageinstances>
-</package3d>
-<package3d name="F061.220" urn="urn:adsk.eagle:package:6763/1" type="box" library_version="1">
-<description>FASTON 6.3 mm x 0.8 mm DIN 46244
-Flachstecker Typ 00.32 (F061.220)
-Distributor: Bürklin 05 F 282</description>
-<packageinstances>
-<packageinstance name="F061.220"/>
-</packageinstances>
-</package3d>
-<package3d name="62409-1" urn="urn:adsk.eagle:package:6760/1" type="box" library_version="1">
-<description>TAB, FASTON, PC Board, 6,35 (.250) Series
-Distributor: Digikey - Nb.  A24742-ND
-Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
-<packageinstances>
-<packageinstance name="62409-1"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="PIN" urn="urn:adsk.eagle:symbol:6744/1" library_version="1">
-<text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="0" y1="-0.508" x2="2.54" y2="0.508" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PIN2" urn="urn:adsk.eagle:component:6765/1" prefix="J" library_version="1">
-<description>&lt;b&gt;Flachstecker Typ Tyco/Electronics/AMP&lt;/b&gt; TAB, FASTON&lt;p&gt;
-Printed Circuit Board Tabs&lt;br&gt;
-Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description>
-<gates>
-<gate name="-1" symbol="PIN" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="F061.040" package="F061.040">
-<connects>
-<connect gate="-1" pin="1" pad="A1 A2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6756/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="F061.060" package="F061.060">
-<connects>
-<connect gate="-1" pin="1" pad="A1 A2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6755/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="F061.080" package="F061.080">
-<connects>
-<connect gate="-1" pin="1" pad="1A 1B"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6757/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="F061.100" package="F061.100">
-<connects>
-<connect gate="-1" pin="1" pad="A1 A2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6758/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="F061.200" package="F061.200">
-<connects>
-<connect gate="-1" pin="1" pad="1A 1B"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6759/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="F061.220" package="F061.220">
-<connects>
-<connect gate="-1" pin="1" pad="1A 1B"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6763/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="62409-1" package="62409-1">
-<connects>
-<connect gate="-1" pin="1" pad="A1 A2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6760/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rectifier" urn="urn:adsk.eagle:library:336">
 <description>&lt;b&gt;Rectifiers&lt;/b&gt;&lt;p&gt;
 General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
@@ -19050,6 +18782,274 @@ Updated by Ella Wu, 2022-06-21
 </deviceset>
 </devicesets>
 </library>
+<library name="con-faston">
+<description>&lt;b&gt;FASTON Connector&lt;/b&gt; Printed Circuit Board Tabs&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="62409-1" urn="urn:adsk.eagle:footprint:6751/1" locally_modified="yes">
+<description>&lt;b&gt;TAB, FASTON, PC Board, 6,35 (.250) Series&lt;/b&gt;&lt;p&gt;
+Distributor: Digikey - Nb.  A24742-ND&lt;br&gt;
+Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
+<pad name="A1" x="-2.54" y="0" drill="1.5" diameter="1.9" shape="long"/>
+<pad name="A2" x="2.54" y="0" drill="1.5" diameter="1.9" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.75" y1="-0.4" x2="3.75" y2="0.4" layer="51"/>
+</package>
+<package name="F061.040" urn="urn:adsk.eagle:footprint:6745/1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt;&lt;p&gt;
+Flachstecker Typ 00.15 (F061.040)&lt;br&gt;
+Distributor: Bürklin</description>
+<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.8" layer="51"/>
+<pad name="A1" x="-2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<pad name="A2" x="2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.060" urn="urn:adsk.eagle:footprint:6746/1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
+Flachstecker Typ 00.45.1 (F061.060)&lt;br&gt;
+Distributor: Bürklin 05 F 266</description>
+<wire x1="-3.75" y1="0" x2="3.75" y2="0" width="0.8" layer="51"/>
+<pad name="A1" x="-2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<pad name="A2" x="2.65" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.080" urn="urn:adsk.eagle:footprint:6747/1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
+Flachstecker Typ Vogt 3866G.68 (F061.080)&lt;br&gt;
+Distributor: Bürklin 05 F 268</description>
+<wire x1="-3.6" y1="0" x2="3.6" y2="0" width="0.8" layer="51"/>
+<pad name="1A" x="-2.5" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<pad name="1B" x="2.5" y="0" drill="1.1" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.100" urn="urn:adsk.eagle:footprint:6748/1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46342 Teil 1&lt;p&gt;
+Flachstecker Typ Vogt 3866B.68 (F061.100)&lt;br&gt;
+Distributor: Bürklin 05 F 270</description>
+<wire x1="-3.6" y1="0" x2="3.6" y2="0" width="0.8" layer="51"/>
+<pad name="A1" x="-2.5" y="0" drill="1.4" diameter="2.54" shape="long"/>
+<pad name="A2" x="2.5" y="0" drill="1.4" diameter="2.54" shape="long"/>
+<text x="-3.85" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.85" y="-3.81" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.200" urn="urn:adsk.eagle:footprint:6749/1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46244&lt;p&gt;
+Flachstecker Typ 17128.. (F061.200)&lt;br&gt;
+Distributor: Bürklin 05 F 280</description>
+<wire x1="-3.6" y1="0" x2="4.55" y2="0" width="0.8" layer="51"/>
+<wire x1="4.55" y1="0" x2="11.6" y2="0" width="0.8" layer="21"/>
+<pad name="1A" x="-2.5" y="0" drill="1.3" diameter="2.5" shape="long"/>
+<pad name="1B" x="2.5" y="0" drill="1.3" diameter="2.5" shape="long"/>
+<text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="5.08" y="1.27" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+<package name="F061.220" urn="urn:adsk.eagle:footprint:6750/1">
+<description>&lt;b&gt;FASTON 6.3 mm x 0.8 mm&lt;/b&gt; DIN 46244&lt;p&gt;
+Flachstecker Typ 00.32 (F061.220)&lt;br&gt;
+Distributor: Bürklin 05 F 282</description>
+<wire x1="-3.6" y1="0" x2="17.1" y2="0" width="0.8" layer="51"/>
+<wire x1="5.35" y1="0" x2="17.1" y2="0" width="0.8" layer="21"/>
+<pad name="1A" x="-2.5" y="0" drill="1.2" diameter="2.5" shape="long"/>
+<pad name="1B" x="2.5" y="0" drill="1.2" diameter="2.5" shape="long"/>
+<text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<text x="5.08" y="1.27" size="1.778" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="62409-1" urn="urn:adsk.eagle:package:39428999/1" type="box">
+<description>TAB, FASTON, PC Board, 6,35 (.250) Series
+Distributor: Digikey - Nb.  A24742-ND
+Source: http://catalog.tycoelectronics.com .. ENG_CD_62409_R.pdf</description>
+<packageinstances>
+<packageinstance name="62409-1"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.040" urn="urn:adsk.eagle:package:6756/1" type="box">
+<description>FASTON 6.3 mm x 0.8 mm
+Flachstecker Typ 00.15 (F061.040)
+Distributor: Bürklin</description>
+<packageinstances>
+<packageinstance name="F061.040"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.060" urn="urn:adsk.eagle:package:6755/1" type="box">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
+Flachstecker Typ 00.45.1 (F061.060)
+Distributor: Bürklin 05 F 266</description>
+<packageinstances>
+<packageinstance name="F061.060"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.080" urn="urn:adsk.eagle:package:6757/1" type="box">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
+Flachstecker Typ Vogt 3866G.68 (F061.080)
+Distributor: Bürklin 05 F 268</description>
+<packageinstances>
+<packageinstance name="F061.080"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.100" urn="urn:adsk.eagle:package:6758/1" type="box">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46342 Teil 1
+Flachstecker Typ Vogt 3866B.68 (F061.100)
+Distributor: Bürklin 05 F 270</description>
+<packageinstances>
+<packageinstance name="F061.100"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.200" urn="urn:adsk.eagle:package:6759/1" type="box">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46244
+Flachstecker Typ 17128.. (F061.200)
+Distributor: Bürklin 05 F 280</description>
+<packageinstances>
+<packageinstance name="F061.200"/>
+</packageinstances>
+</package3d>
+<package3d name="F061.220" urn="urn:adsk.eagle:package:6763/1" type="box">
+<description>FASTON 6.3 mm x 0.8 mm DIN 46244
+Flachstecker Typ 00.32 (F061.220)
+Distributor: Bürklin 05 F 282</description>
+<packageinstances>
+<packageinstance name="F061.220"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PIN">
+<text x="-2.54" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="0" y1="-0.508" x2="2.54" y2="0.508" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PIN2" prefix="J">
+<description>&lt;b&gt;Flachstecker Typ Tyco/Electronics/AMP&lt;/b&gt; TAB, FASTON&lt;p&gt;
+Printed Circuit Board Tabs&lt;br&gt;
+Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description>
+<gates>
+<gate name="-1" symbol="PIN" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="F061.040" package="F061.040">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6756/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.060" package="F061.060">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6755/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.080" package="F061.080">
+<connects>
+<connect gate="-1" pin="1" pad="1A 1B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6757/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.100" package="F061.100">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6758/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.200" package="F061.200">
+<connects>
+<connect gate="-1" pin="1" pad="1A 1B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6759/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="F061.220" package="F061.220">
+<connects>
+<connect gate="-1" pin="1" pad="1A 1B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6763/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="62409-1" package="62409-1">
+<connects>
+<connect gate="-1" pin="1" pad="A1 A2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39428999/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19327,34 +19327,34 @@ Updated by Ella Wu, 2022-06-21
 </part>
 <part name="MARK5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1" override_package3d_urn="urn:adsk.eagle:package:36462355/4" override_package_urn="urn:adsk.eagle:footprint:6239986/1"/>
 <part name="MARK6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:6240632/1" override_package3d_urn="urn:adsk.eagle:package:36462288/4" override_package_urn="urn:adsk.eagle:footprint:6239986/1"/>
-<part name="J20" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461311/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J20" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461311/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J19" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461296/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J19" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461296/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J17" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461344/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J17" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461344/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J18" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461347/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J18" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461347/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J11" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461337/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J11" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461337/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J14" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461341/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J14" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461341/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J12" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461338/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J12" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461338/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J16" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461343/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J16" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461343/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J15" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461342/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J15" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461342/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
-<part name="J13" library="con-faston" library_urn="urn:adsk.eagle:library:144" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:6760/1" override_package3d_urn="urn:adsk.eagle:package:36461340/2" override_package_urn="urn:adsk.eagle:footprint:6751/1">
+<part name="J13" library="con-faston" deviceset="PIN2" device="62409-1" package3d_urn="urn:adsk.eagle:package:39428999/1" override_package3d_urn="urn:adsk.eagle:package:36461340/2" override_package_urn="urn:adsk.eagle:footprint:6751/1" override_locally_modified="yes">
 <attribute name="LCSC" value="C86495"/>
 </part>
 <part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="MB*S" device="" package3d_urn="urn:adsk.eagle:package:23902/1" override_package3d_urn="urn:adsk.eagle:package:36462233/2" override_package_urn="urn:adsk.eagle:footprint:23861/1" technology="6">
