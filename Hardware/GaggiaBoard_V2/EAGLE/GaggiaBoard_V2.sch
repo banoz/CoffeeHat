@@ -6187,151 +6187,6 @@ LETTER landscape</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="optocoupler" urn="urn:adsk.eagle:library:320">
-<description>&lt;b&gt;Opto Couplers&lt;/b&gt;&lt;p&gt;
-Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DIL04" urn="urn:adsk.eagle:footprint:21858/1" library_version="3">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
-<wire x1="2.54" y1="2.921" x2="-2.54" y2="2.921" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-2.921" x2="2.54" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="2.921" x2="2.54" y2="-2.921" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="2.921" x2="-2.54" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-2.921" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.016" x2="-2.54" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
-<pad name="2" x="1.27" y="-3.81" drill="0.8128" shape="offset" rot="R270"/>
-<pad name="3" x="1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
-<pad name="4" x="-1.27" y="3.81" drill="0.8128" shape="offset" rot="R90"/>
-<text x="4.191" y="-2.921" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="-2.921" y="-2.667" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-</package>
-<package name="DIL4-SMD" urn="urn:adsk.eagle:footprint:21919/1" library_version="3">
-<description>&lt;b&gt;Dual  In Line SMD&lt;/b&gt; 4 pol.&lt;p&gt;
-Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
-<wire x1="2.315" y1="3.18" x2="2.315" y2="-2.164" width="0.1524" layer="21"/>
-<wire x1="2.315" y1="-2.164" x2="2.315" y2="-3.18" width="0.1524" layer="21"/>
-<wire x1="-2.315" y1="3.18" x2="2.315" y2="3.18" width="0.1524" layer="21"/>
-<wire x1="2.315" y1="-3.18" x2="-2.315" y2="-3.18" width="0.1524" layer="21"/>
-<wire x1="-2.315" y1="-3.18" x2="-2.315" y2="3.18" width="0.1524" layer="21"/>
-<wire x1="2.315" y1="-2.164" x2="-2.315" y2="-2.164" width="0.1524" layer="21"/>
-<smd name="1" x="-1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
-<smd name="2" x="1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
-<smd name="3" x="1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
-<smd name="4" x="-1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
-<text x="-2.54" y="-3.175" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-3.175" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-1.875" y1="-5.15" x2="-0.65" y2="-3.2" layer="51"/>
-<rectangle x1="0.665" y1="-5.15" x2="1.89" y2="-3.2" layer="51"/>
-<rectangle x1="0.65" y1="3.2" x2="1.875" y2="5.15" layer="51" rot="R180"/>
-<rectangle x1="-1.89" y1="3.2" x2="-0.665" y2="5.15" layer="51" rot="R180"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="DIL04" urn="urn:adsk.eagle:package:21938/1" type="box" library_version="3">
-<description>Dual In Line Package</description>
-<packageinstances>
-<packageinstance name="DIL04"/>
-</packageinstances>
-</package3d>
-<package3d name="DIL4-SMD" urn="urn:adsk.eagle:package:21963/1" type="box" library_version="3">
-<description>Dual  In Line SMD 4 pol.
-Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
-<packageinstances>
-<packageinstance name="DIL4-SMD"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="OK" urn="urn:adsk.eagle:symbol:21854/2" library_version="3">
-<wire x1="-2.413" y1="-1.143" x2="-1.016" y2="0.254" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0.254" x2="-1.905" y2="-0.127" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-0.127" x2="-1.397" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-1.397" y1="-0.635" x2="-1.016" y2="0.254" width="0.1524" layer="94"/>
-<wire x1="-1.143" y1="1.397" x2="-2.032" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="1.016" x2="-1.524" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0.508" x2="-1.143" y2="1.397" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.143" y2="1.397" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="-1.27" x2="-4.445" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="1.27" x2="-4.445" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-4.445" y1="1.27" x2="-5.715" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-6.985" y1="5.08" x2="4.445" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.985" y1="-5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-4.445" y1="2.54" x2="-4.445" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-6.985" y1="5.08" x2="-6.985" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-4.445" y1="-1.27" x2="-4.445" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="4.445" y1="5.08" x2="4.445" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="-4.445" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-4.445" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-1.016" x2="2.286" y2="-2.286" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-2.286" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-2.286" x2="1.016" y2="-1.778" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.778" x2="1.778" y2="-1.016" width="0.1524" layer="94"/>
-<text x="-6.985" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.985" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.381" y1="-2.54" x2="0.381" y2="2.54" layer="94"/>
-<pin name="A" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="C" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
-<pin name="EMIT" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="COL" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LTV816" urn="urn:adsk.eagle:component:22052/3" prefix="OK" library_version="3">
-<description>&lt;b&gt;OPTO COUPLER&lt;/b&gt;&lt;p&gt;
-Source: LITEON, LTV816.pdf</description>
-<gates>
-<gate name="G$1" symbol="OK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIL04">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="COL" pad="4"/>
-<connect gate="G$1" pin="EMIT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21938/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="3" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="S" package="DIL4-SMD">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
-<connect gate="G$1" pin="COL" pad="4"/>
-<connect gate="G$1" pin="EMIT" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21963/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -18892,6 +18747,309 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Optocoupler_WL-OCPT" urn="urn:adsk.eagle:library:20377805">
+<description>&lt;BR&gt;Wurth Elektronik - Optoelectronic Components - Optocoupler - WL-OCPT&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;&lt;BR&gt;
+
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2022b, 2022-11-11&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WL-OCPT_LSOP4" urn="urn:adsk.eagle:footprint:25398549/2" library_version="8">
+<description>&lt;b&gt; WL-OCPT Optocoupler Phototransistor
+
+&lt;/b&gt;&lt;br&gt;Size : LSOP4, SMT, 4pins</description>
+<smd name="1" x="-4.75" y="1.27" dx="1.1" dy="0.9" layer="1"/>
+<smd name="2" x="-4.75" y="-1.27" dx="1.1" dy="0.9" layer="1"/>
+<smd name="3" x="4.75" y="-1.27" dx="1.1" dy="0.9" layer="1"/>
+<smd name="4" x="4.75" y="1.27" dx="1.1" dy="0.9" layer="1"/>
+<wire x1="-3.8" y1="1.8" x2="3.8" y2="1.8" width="0.1" layer="51"/>
+<wire x1="3.8" y1="1.8" x2="3.8" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="3.8" y1="-1.8" x2="-3.8" y2="-1.8" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="-1.8" x2="-3.8" y2="1.07" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="1.07" x2="-3.8" y2="1.47" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="1.47" x2="-3.8" y2="1.8" width="0.1" layer="51"/>
+<wire x1="-3.9" y1="1.9" x2="3.9" y2="1.9" width="0.2" layer="21"/>
+<wire x1="3.9" y1="1.9" x2="3.9" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="3.9" y1="-1.9" x2="-3.9" y2="-1.9" width="0.2" layer="21"/>
+<wire x1="-3.9" y1="-1.9" x2="-3.9" y2="1.9" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="1.47" x2="-5.1" y2="1.47" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="1.47" x2="-5.1" y2="1.07" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="1.07" x2="-3.8" y2="1.07" width="0.1" layer="51"/>
+<wire x1="-3.8" y1="-1.07" x2="-5.1" y2="-1.07" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="-1.07" x2="-5.1" y2="-1.47" width="0.1" layer="51"/>
+<wire x1="-5.1" y1="-1.47" x2="-3.8" y2="-1.47" width="0.1" layer="51"/>
+<wire x1="3.8" y1="1.07" x2="5.1" y2="1.07" width="0.1" layer="51"/>
+<wire x1="5.1" y1="1.07" x2="5.1" y2="1.47" width="0.1" layer="51"/>
+<wire x1="5.1" y1="1.47" x2="3.8" y2="1.47" width="0.1" layer="51"/>
+<wire x1="3.8" y1="-1.47" x2="5.1" y2="-1.47" width="0.1" layer="51"/>
+<wire x1="5.1" y1="-1.47" x2="5.1" y2="-1.07" width="0.1" layer="51"/>
+<wire x1="5.1" y1="-1.07" x2="3.8" y2="-1.07" width="0.1" layer="51"/>
+<circle x="-3.2" y="1.2" radius="0.2" width="0.4" layer="51"/>
+<circle x="-3.2" y="1.2" radius="0.2" width="0.4" layer="21"/>
+<polygon width="0.1" layer="39">
+<vertex x="-5.5" y="2.1"/>
+<vertex x="5.5" y="2.1"/>
+<vertex x="5.5" y="-2.1"/>
+<vertex x="-5.5" y="-2.1"/>
+</polygon>
+<text x="0" y="2.6" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="WL-OCPT_LSOP4" urn="urn:adsk.eagle:package:25398557/3" type="model" library_version="8">
+<description>&lt;b&gt; WL-OCPT Optocoupler Phototransistor
+
+&lt;/b&gt;&lt;br&gt;Size : LSOP4, SMT, 4pins</description>
+<packageinstances>
+<packageinstance name="WL-OCPT_LSOP4"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="WL-OCPT_SERIES_101X" urn="urn:adsk.eagle:symbol:25398551/1" library_version="8">
+<wire x1="-1.27" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="1.98" y1="1.7" x2="1.98" y2="0.7" width="0.254" layer="94"/>
+<wire x1="1.98" y1="0.7" x2="1.98" y2="-0.8" width="0.254" layer="94"/>
+<wire x1="1.98" y1="-0.8" x2="1.98" y2="-1.7" width="0.254" layer="94"/>
+<wire x1="1.98" y1="0.7" x2="4.445" y2="2.54" width="0.2" layer="94"/>
+<wire x1="1.98" y1="-0.8" x2="4.445" y2="-2.54" width="0.2" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="0.508" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="0.508" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-5.08" y1="-3.81" x2="5.08" y2="-3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="5.08" y1="-3.81" x2="5.08" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-5.08" y1="3.81" x2="5.08" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.278" y="-1.354"/>
+<vertex x="2.951" y="-1.827"/>
+<vertex x="3.7494" y="-2.0556"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.254" y="0.762"/>
+<vertex x="1.016" y="0.508"/>
+<vertex x="0.254" y="0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.254" y="-0.254"/>
+<vertex x="1.016" y="-0.508"/>
+<vertex x="0.254" y="-0.762"/>
+</polygon>
+<pin name="1" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<text x="0" y="5.08" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.366" y="-2.794" size="1.27" layer="94" ratio="4" align="top-left">C</text>
+<text x="6.35" y="-2.794" size="1.27" layer="94" ratio="4" align="top-left">E</text>
+<text x="-7.366" y="2.286" size="1.27" layer="94" ratio="4" align="top-left">A</text>
+<text x="6.35" y="2.286" size="1.27" layer="94" ratio="4" align="top-left">C</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WL-OCPT_SERIES_101X" urn="urn:adsk.eagle:component:25398559/4" prefix="Q" library_version="8">
+<description>&lt;b&gt;WL-OCPT LSOP-4
+&lt;br&gt;Series 101x  
+&lt;/b&gt;&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Characteristics
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;High isolation voltage
+&lt;br&gt; Good stability of inner isolation
+&lt;br&gt; Stable CTR in full operation temperature range
+&lt;br&gt; Different CTR binnings available
+&lt;br&gt; High Collector-Emitter voltage
+&lt;br&gt; Fast switching times
+ 
+
+&lt;/b&gt;&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;
+ 
+&lt;b&gt;Applications
+&lt;br&gt;&lt;/b&gt;&lt;br&gt;Power Supply, charger 
+&lt;br&gt;Computers &amp; Microprocessors 
+&lt;br&gt;Office equipment 
+&lt;br&gt;Instrumental applications, machines 
+&lt;br&gt;Ammeter, Smart Meter 
+
+&lt;/b&gt;&lt;br&gt;
+&lt;/b&gt;&lt;br&gt;            
+&lt;br&gt;&lt;a href="https://www.we-online.de/katalog/media/o198230v209%20WL-OCPT_LSOP4_101x_multi-parts.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.de/katalog/media/o198230v209%20WL-OCPT_LSOP4_101x_multi-parts.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WL-OCPT_PACKAGE_LSOP-4/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/catalog/WL-OCPT_PACKAGE_LSOP-4&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu, 2022-06-21
+ &lt;br&gt;2022 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="WL-OCPT_SERIES_101X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WL-OCPT_LSOP4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25398557/3"/>
+</package3dinstances>
+<technologies>
+<technology name="_140100146000">
+<attribute name="CTR-MAX" value="600%"/>
+<attribute name="CTR-MIN" value="300%"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/140100146000?ae"/>
+<attribute name="IF" value="60mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 140100146000 "/>
+<attribute name="TC-CTR" value="IF = 5mA,VCE = 5 V"/>
+<attribute name="VALUE" value=" 140100146000 "/>
+<attribute name="VCE" value="80V"/>
+<attribute name="VISO" value="5000(V(RMS))"/>
+</technology>
+<technology name="_140105146000">
+<attribute name="CTR-MAX" value="150%"/>
+<attribute name="CTR-MIN" value="50%"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/140105146000?ae"/>
+<attribute name="IF" value="60mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="140105146000"/>
+<attribute name="TC-CTR" value="IF = 5mA,VCE = 5 V"/>
+<attribute name="VALUE" value="140105146000"/>
+<attribute name="VCE" value="80V"/>
+<attribute name="VISO" value="5000(V(RMS))"/>
+</technology>
+<technology name="_140106146000">
+<attribute name="CTR-MAX" value="300%"/>
+<attribute name="CTR-MIN" value="100%"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/140106146000?ae"/>
+<attribute name="IF" value="60mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="140106146000"/>
+<attribute name="TC-CTR" value="IF = 5mA,VCE = 5 V"/>
+<attribute name="VALUE" value="140106146000"/>
+<attribute name="VCE" value="80V"/>
+<attribute name="VISO" value="5000(V(RMS))"/>
+</technology>
+<technology name="_140107146000">
+<attribute name="CTR-MAX" value="160%"/>
+<attribute name="CTR-MIN" value="80%"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/140107146000?ae"/>
+<attribute name="IF" value="60mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="140107146000"/>
+<attribute name="TC-CTR" value="IF = 5mA,VCE = 5 V"/>
+<attribute name="VALUE" value="140107146000"/>
+<attribute name="VCE" value="80V"/>
+<attribute name="VISO" value="5000(V(RMS))"/>
+</technology>
+<technology name="_140108146000">
+<attribute name="CTR-MAX" value="260%"/>
+<attribute name="CTR-MIN" value="130%"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/140108146000?ae"/>
+<attribute name="IF" value="60mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="140108146000"/>
+<attribute name="TC-CTR" value="IF = 5mA,VCE = 5 V"/>
+<attribute name="VALUE" value="140108146000"/>
+<attribute name="VCE" value="80V"/>
+<attribute name="VISO" value="5000(V(RMS))"/>
+</technology>
+<technology name="_140109146000">
+<attribute name="CTR-MAX" value="400%"/>
+<attribute name="CTR-MIN" value="200%"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/140109146000?ae"/>
+<attribute name="IF" value="60mA"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value="140109146000"/>
+<attribute name="TC-CTR" value="IF = 5mA,VCE = 5 V"/>
+<attribute name="VALUE" value="140109146000"/>
+<attribute name="VCE" value="80V"/>
+<attribute name="VISO" value="5000(V(RMS))"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18928,9 +19086,6 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </part>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="LTV816" device="" package3d_urn="urn:adsk.eagle:package:21938/1" override_package3d_urn="urn:adsk.eagle:package:36461858/2" override_package_urn="urn:adsk.eagle:footprint:21858/1">
-<attribute name="LCSC" value="C2944043"/>
-</part>
 <part name="OK2" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="MOC3021M" device="DIL06O" override_package3d_urn="urn:adsk.eagle:package:36461862/2" override_package_urn="urn:adsk.eagle:footprint:36461863/1">
 <attribute name="LCSC" value="C5242"/>
 </part>
@@ -19555,6 +19710,9 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </pinmapping>
 </spice>
 <attribute name="LCSC" value="C877859"/>
+</part>
+<part name="OK1" library="Wurth_Optocoupler_WL-OCPT" library_urn="urn:adsk.eagle:library:20377805" deviceset="WL-OCPT_SERIES_101X" device="" package3d_urn="urn:adsk.eagle:package:25398557/3" technology="_140106146000" value="140106146000">
+<attribute name="LCSC" value="C141610"/>
 </part>
 </parts>
 <sheets>
@@ -20862,23 +21020,18 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <instance part="SUPPLY22" gate="G$1" x="15.24" y="134.62" smashed="yes">
 <attribute name="VALUE" x="15.24" y="132.715" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="OK1" gate="G$1" x="73.66" y="68.58" smashed="yes">
-<attribute name="NAME" x="66.675" y="74.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.675" y="60.96" size="1.778" layer="96"/>
-<attribute name="LCSC" x="73.66" y="68.58" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="R20" gate="G$1" x="20.32" y="76.2" smashed="yes">
 <attribute name="NAME" x="16.51" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="16.51" y="72.898" size="1.778" layer="96"/>
 <attribute name="LCSC" x="20.32" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="83.82" y="60.96" smashed="yes">
-<attribute name="VALUE" x="83.82" y="59.055" size="1.778" layer="96" align="center"/>
+<instance part="SUPPLY8" gate="G$1" x="81.28" y="60.96" smashed="yes">
+<attribute name="VALUE" x="81.28" y="59.055" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="R14" gate="G$1" x="83.82" y="78.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.3214" y="74.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="87.122" y="74.93" size="1.778" layer="96" rot="R90"/>
-<attribute name="LCSC" x="83.82" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R14" gate="G$1" x="81.28" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.7814" y="74.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="84.582" y="74.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="81.28" y="78.74" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="B1" gate="G$1" x="30.48" y="66.04" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="35.56" y="71.12" size="1.778" layer="96" rot="MR180"/>
@@ -20987,6 +21140,11 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <attribute name="NAME" x="212.09" y="148.8186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="212.09" y="144.018" size="1.778" layer="96"/>
 <attribute name="LCSC" x="215.9" y="147.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="OK1" gate="G$1" x="71.12" y="68.58" smashed="yes">
+<attribute name="NAME" x="71.12" y="73.66" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="66.04" y="60.96" size="1.778" layer="96"/>
+<attribute name="LCSC" x="71.12" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -21284,10 +21442,10 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <junction x="22.86" y="139.7"/>
 </segment>
 <segment>
-<pinref part="OK1" gate="G$1" pin="EMIT"/>
 <pinref part="SUPPLY8" gate="G$1" pin="GND"/>
-<wire x1="81.28" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="66.04" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="66.04" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="PSU1" gate="G$1" pin="VO-"/>
@@ -21486,8 +21644,8 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="83.82" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
-<label x="83.82" y="86.36" size="1.778" layer="95" rot="R90"/>
+<wire x1="81.28" y1="83.82" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
+<label x="81.28" y="86.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
@@ -21555,22 +21713,22 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 </net>
 <net name="PA0" class="0">
 <segment>
-<wire x1="83.82" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<junction x="83.82" y="71.12"/>
-<label x="91.44" y="71.12" size="1.778" layer="95"/>
-<pinref part="OK1" gate="G$1" pin="COL"/>
-<wire x1="81.28" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
+<junction x="81.28" y="71.12"/>
+<label x="88.9" y="71.12" size="1.778" layer="95"/>
+<wire x1="78.74" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="83.82" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="73.66" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<junction x="83.82" y="71.12"/>
+<wire x1="81.28" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="73.66" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
+<junction x="81.28" y="71.12"/>
+<pinref part="OK1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="Q10" gate="G$1" pin="C"/>
-<pinref part="OK1" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -21606,8 +21764,8 @@ Source: http://www.mew-europe.com/..  en_ds_61613_0000.pdf</description>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="78.74" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="G$1" pin="A"/>
 <wire x1="60.96" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="OK1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$45" class="0">
