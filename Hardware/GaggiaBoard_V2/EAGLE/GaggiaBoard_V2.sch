@@ -19714,6 +19714,64 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <part name="OK1" library="Wurth_Optocoupler_WL-OCPT" library_urn="urn:adsk.eagle:library:20377805" deviceset="WL-OCPT_SERIES_101X" device="" package3d_urn="urn:adsk.eagle:package:25398557/3" technology="_140106146000" value="140106146000">
 <attribute name="LCSC" value="C141610"/>
 </part>
+<part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K3">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C114432"/>
+</part>
+<part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K3">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C114432"/>
+</part>
+<part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K3">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C114432"/>
+</part>
+<part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K3">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C114432"/>
+</part>
+<part name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K3">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C114432"/>
+</part>
+<part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3K3">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="LCSC" value="C114432"/>
+</part>
+<part name="SUPPLY19" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="SUPPLY24" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="SUPPLY25" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
+<part name="SUPPLY27" library="Power_Symbols" library_urn="urn:adsk.eagle:library:16502351" deviceset="GND-BAR" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -19853,31 +19911,31 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <attribute name="NAME" x="119.38" y="48.768" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="Q11" gate="G1" x="25.4" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.32" y="58.42" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="NAME" x="20.32" y="63.5" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="20.32" y="60.96" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="LCSC" x="25.4" y="58.42" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="Q11" gate="G$1" x="50.8" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.72" y="58.42" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="45.72" y="60.96" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="Q11" gate="G$1" x="63.5" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.42" y="63.5" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="58.42" y="60.96" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="R31" gate="G$1" x="33.02" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.5214" y="64.77" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="36.322" y="64.77" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="33.02" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R32" gate="G$1" x="58.42" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.9214" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="61.722" y="64.77" size="1.778" layer="96" rot="R90"/>
-<attribute name="LCSC" x="58.42" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R32" gate="G$1" x="71.12" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.6214" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.422" y="64.77" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="71.12" y="68.58" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="Q12" gate="Q1" x="60.96" y="50.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="58.42" y="50.8" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="58.42" y="48.514" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="LCSC" x="60.96" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="Q12" gate="Q1" x="73.66" y="50.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="81.28" y="45.72" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="71.12" y="48.514" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="LCSC" x="73.66" y="50.8" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="Q12" gate="Q2" x="35.56" y="53.34" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.02" y="53.34" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="NAME" x="43.18" y="48.26" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="33.02" y="51.054" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="R33" gate="G$1" x="40.64" y="60.96" smashed="yes" rot="R90">
@@ -19885,10 +19943,10 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <attribute name="VALUE" x="43.942" y="57.15" size="1.778" layer="96" rot="R90"/>
 <attribute name="LCSC" x="40.64" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="R34" gate="G$1" x="66.04" y="58.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.5414" y="54.61" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="69.342" y="54.61" size="1.778" layer="96" rot="R90"/>
-<attribute name="LCSC" x="66.04" y="58.42" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="R34" gate="G$1" x="78.74" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.2414" y="54.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.042" y="54.61" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="78.74" y="58.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J4" gate="J$1" x="10.16" y="15.24" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="7.62" y="22.606" size="1.778" layer="96" font="vector" rot="MR180"/>
@@ -19946,6 +20004,16 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="83.82" y="106.68" smashed="yes">
 <attribute name="VALUE" x="83.82" y="104.775" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="R36" gate="G$1" x="86.36" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.8614" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="89.662" y="46.99" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="86.36" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R37" gate="G$1" x="48.26" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.7614" y="52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="51.562" y="52.07" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="48.26" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -20032,13 +20100,21 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <wire x1="20.32" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="43.18" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="Q12" gate="Q1" pin="E"/>
-<wire x1="58.42" y1="45.72" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="45.72" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="Q12" gate="Q2" pin="E"/>
+<wire x1="48.26" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="43.18" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <junction x="22.86" y="43.18"/>
 <junction x="33.02" y="43.18"/>
+<pinref part="R36" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="45.72" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="43.18" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
+<junction x="71.12" y="43.18"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="50.8" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
+<junction x="48.26" y="43.18"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
@@ -20124,8 +20200,8 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <wire x1="22.86" y1="63.5" x2="22.86" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="Q11" gate="G$1" pin="S"/>
 <wire x1="22.86" y1="76.2" x2="22.86" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="63.5" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="63.5" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="76.2" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <junction x="22.86" y="76.2"/>
 <label x="22.86" y="78.74" size="1.778" layer="95" rot="R90"/>
 <pinref part="R31" gate="G$1" pin="2"/>
@@ -20133,9 +20209,9 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <junction x="33.02" y="76.2"/>
 <pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="73.66" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
-<junction x="48.26" y="76.2"/>
+<wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<junction x="60.96" y="76.2"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -20479,8 +20555,13 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="63.5" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
-<label x="66.04" y="68.58" size="1.778" layer="95" rot="R90"/>
+<wire x1="78.74" y1="63.5" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
+<label x="78.74" y="68.58" size="1.778" layer="95" rot="R90"/>
+<pinref part="R36" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="66.04" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="55.88" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
+<junction x="78.74" y="66.04"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -20555,8 +20636,8 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <segment>
 <pinref part="Q11" gate="G$1" pin="D"/>
 <pinref part="J9" gate="G$1" pin="3"/>
-<wire x1="48.26" y1="48.26" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="48.26" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -20570,12 +20651,12 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <net name="N$47" class="0">
 <segment>
 <pinref part="Q11" gate="G$1" pin="G"/>
-<wire x1="55.88" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="63.5" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="63.5" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="Q12" gate="Q1" pin="C"/>
-<wire x1="58.42" y1="55.88" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
-<junction x="58.42" y="60.96"/>
+<wire x1="71.12" y1="55.88" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
+<junction x="71.12" y="60.96"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -20600,9 +20681,9 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <net name="N$49" class="0">
 <segment>
 <pinref part="Q12" gate="Q1" pin="B"/>
-<wire x1="63.5" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="66.04" y1="50.8" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="50.8" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -20675,8 +20756,13 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 </segment>
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="66.04" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="66.04" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
 <label x="40.64" y="68.58" size="1.778" layer="95" rot="R90"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="68.58" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="60.96" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
+<junction x="40.64" y="68.58"/>
 </segment>
 </net>
 <net name="PB15" class="0">
@@ -21146,6 +21232,38 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <attribute name="VALUE" x="66.04" y="60.96" size="1.778" layer="96"/>
 <attribute name="LCSC" x="71.12" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="R38" gate="G$1" x="154.94" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.4414" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="115.57" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="154.94" y="119.38" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R39" gate="G$1" x="154.94" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.4414" y="80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="154.94" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R40" gate="G$1" x="154.94" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.4414" y="44.45" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="44.45" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="154.94" y="48.26" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R41" gate="G$1" x="15.24" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.7414" y="97.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="18.542" y="97.79" size="1.778" layer="96" rot="R90"/>
+<attribute name="LCSC" x="15.24" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="SUPPLY19" gate="G$1" x="15.24" y="91.44" smashed="yes">
+<attribute name="VALUE" x="15.24" y="89.535" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY24" gate="G$1" x="154.94" y="109.22" smashed="yes">
+<attribute name="VALUE" x="154.94" y="107.315" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY25" gate="G$1" x="154.94" y="73.66" smashed="yes">
+<attribute name="VALUE" x="154.94" y="71.755" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY27" gate="G$1" x="154.94" y="38.1" smashed="yes">
+<attribute name="VALUE" x="154.94" y="36.195" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21462,6 +21580,26 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <pinref part="SUPPLY1" gate="G$1" pin="GND"/>
 <pinref part="H1" gate="G$1" pin="P$1"/>
 <wire x1="137.16" y1="7.62" x2="137.16" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY27" gate="G$1" pin="GND"/>
+<pinref part="R40" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="40.64" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY25" gate="G$1" pin="GND"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="76.2" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY24" gate="G$1" pin="GND"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="111.76" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY19" gate="G$1" pin="GND"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="93.98" x2="15.24" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -21812,8 +21950,12 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <net name="PC13" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
 <label x="147.32" y="127" size="1.778" layer="95"/>
+<pinref part="R38" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="124.46" x2="154.94" y2="127" width="0.1524" layer="91"/>
+<junction x="154.94" y="127"/>
 </segment>
 </net>
 <net name="PA1" class="0">
@@ -21826,22 +21968,34 @@ Source: http://www.buerklin.com, http://catalog.tycoelectronics.com</description
 <net name="PB14" class="0">
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="109.22" x2="10.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="109.22" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
 <label x="10.16" y="109.22" size="1.778" layer="95"/>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="109.22" x2="10.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="106.68" x2="15.24" y2="109.22" width="0.1524" layer="91"/>
+<junction x="15.24" y="109.22"/>
 </segment>
 </net>
 <net name="PB12" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="55.88" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
 <label x="147.32" y="55.88" size="1.778" layer="95"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="53.34" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
+<junction x="154.94" y="55.88"/>
 </segment>
 </net>
 <net name="PB13" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="157.48" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
 <label x="147.32" y="91.44" size="1.778" layer="95"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="88.9" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
+<junction x="154.94" y="91.44"/>
 </segment>
 </net>
 <net name="N$1" class="0">
