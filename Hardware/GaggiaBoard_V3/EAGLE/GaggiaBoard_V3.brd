@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -181,7 +181,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5" projecturn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5I0QyMDIyMDEwNDQ4MTQ5MTcwNg" f3durn="urn:adsk.wipprod:dm.lineage:6KViA3zyShGCANc4vY218g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="b37fdac8-ca89-4d4f-a57b-73ea955da4c1" lastsyncedrevisionid="b37fdac8-ca89-4d4f-a57b-73ea955da4c1" lastboardhashguid="3175d005-fafc-47e9-e776-d2fa056ed6ec" lastpushedtime="2022-09-18T22:41:43Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5" projecturn="a.YnVzaW5lc3M6Z21haWwyMjIzNTY5I0QyMDIyMDEwNDQ4MTQ5MTcwNg" f3durn="urn:adsk.wipprod:dm.lineage:6KViA3zyShGCANc4vY218g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="fc38dea5-f5c4-4e85-a517-b0512cb8532c" lastsyncedrevisionid="fc38dea5-f5c4-4e85-a517-b0512cb8532c" lastboardhashguid="978091bf-a580-cf20-001a-4d07445737f1" lastpushedtime="2023-10-17T01:29:26Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="0" x2="45" y2="0" width="0" layer="20"/>
 <wire x1="45" y1="0" x2="45" y2="100" width="0" layer="20"/>
@@ -3184,6 +3184,32 @@ design rules under a new name.</description>
 <via x="19.5" y="83" extent="1-16" drill="0.35"/>
 <wire x1="30" y1="38.15" x2="31.15" y2="38.15" width="0.254" layer="16"/>
 <wire x1="31.15" y1="38.15" x2="32" y2="39" width="0.254" layer="16"/>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="4" y="88"/>
+<vertex x="10.5" y="88"/>
+<vertex x="10.5" y="84.7"/>
+<vertex x="4" y="84.7"/>
+</polygon>
+<polygon width="0.1524" layer="16" pour="cutout">
+<vertex x="2.5" y="88"/>
+<vertex x="12" y="88"/>
+<vertex x="12" y="83"/>
+<vertex x="9" y="80"/>
+<vertex x="5.5" y="80"/>
+<vertex x="2.5" y="83"/>
+</polygon>
+<polygon width="0.1524" layer="16" pour="cutout">
+<vertex x="39" y="94"/>
+<vertex x="41" y="94"/>
+<vertex x="41" y="90.3"/>
+<vertex x="39" y="90.3"/>
+</polygon>
+<polygon width="0.1524" layer="1" pour="cutout">
+<vertex x="39" y="94"/>
+<vertex x="41" y="94"/>
+<vertex x="41" y="92"/>
+<vertex x="39" y="92"/>
+</polygon>
 </signal>
 <signal name="5V">
 <contactref element="U1" pad="P1$18"/>
