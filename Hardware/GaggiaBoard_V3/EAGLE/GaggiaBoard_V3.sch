@@ -17118,6 +17118,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="TC" width="0" drill="0">
+<clearance class="1" value="0.508"/>
+</class>
+<class number="2" name="Analog" width="0" drill="0">
+<clearance class="2" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="U1" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="BLACKPILL" device="" override_package3d_urn="urn:adsk.eagle:package:36462313/2" override_package_urn="urn:adsk.eagle:footprint:36462314/1"/>
@@ -18103,7 +18109,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="226.06" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="N$5" class="1">
 <segment>
 <pinref part="FB2" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="T-"/>
@@ -18115,7 +18121,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="33.02" y="17.78"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="N$26" class="1">
 <segment>
 <pinref part="FB1" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="15.24" x2="30.48" y2="7.62" width="0.1524" layer="91"/>
@@ -18129,7 +18135,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <junction x="45.72" y="12.7"/>
 </segment>
 </net>
-<net name="PRESSURE" class="0">
+<net name="PRESSURE" class="2">
 <segment>
 <pinref part="J6" gate="G$1" pin="3"/>
 <pinref part="U4" gate="G$1" pin="AIN0"/>
@@ -18302,14 +18308,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="78.74" y1="68.58" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="N$3" class="1">
 <segment>
 <pinref part="FB2" gate="G$1" pin="1"/>
 <pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="17.78" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="N$4" class="1">
 <segment>
 <pinref part="FB1" gate="G$1" pin="1"/>
 <pinref part="J4" gate="G$1" pin="2"/>
@@ -18709,16 +18715,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="15.24" y1="68.58" x2="5.08" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="203.2" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="96.52" x2="198.12" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="96.52" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
-<junction x="198.12" y="109.22"/>
-<label x="195.58" y="109.22" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AC_P" class="0">
 <segment>
@@ -18746,6 +18742,16 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="OK2" gate="G$1" pin="A1"/>
 <wire x1="185.42" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
 <label x="195.58" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="96.52" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<junction x="200.66" y="109.22"/>
+<label x="193.04" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3WAY" class="0">
